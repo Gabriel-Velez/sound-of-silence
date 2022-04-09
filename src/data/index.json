@@ -1,0 +1,134 @@
+[
+  {
+    "id": "6251117d1ab7d16cf7c7f4dc",
+    "title": "mollit fugiat culpa",
+    "description": "Id anim nisi consectetur fugiat aliquip cupidatat. Pariatur fugiat velit anim adipisicing sint est ullamco irure consectetur adipisicing. Commodo laborum sunt velit nostrud voluptate aute eu nisi ut. Minim anim eiusmod elit qui laboris deserunt qui fugiat quis pariatur ea consequat.",
+    "articles": [
+      {
+        "id": "6251117d3ab90eb3dc7ac872",
+        "title": "Veniam in esse est voluptate cillum ea in.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d827fba67dd91c1d9",
+        "title": "Occaecat commodo sunt voluptate adipisicing voluptate Lorem.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d627afe85d3731900",
+        "title": "Laboris fugiat quis esse dolore culpa eu quis elit labore aliquip.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d1d1502fbee4c94ba",
+        "title": "Cupidatat irure officia nulla dolore elit id sit aliqua sunt qui adipisicing est elit.",
+        "link": "#"
+      },
+      {
+        "id": "6251117da8abf31664545854",
+        "title": "Ipsum adipisicing minim eiusmod aliqua minim exercitation do excepteur enim nostrud excepteur.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d9b43aa8b854f11cd",
+        "title": "Dolore incididunt ex Lorem qui ea sint non eiusmod pariatur in quis.",
+        "link": "#"
+      },
+      {
+        "id": "6251117de3854fc8c712f505",
+        "title": "Esse nisi magna tempor aute eu amet ex laboris adipisicing est ea.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d8148826952ac5ba2",
+        "title": "Ea quis quis eiusmod id officia nisi eiusmod aliquip incididunt.",
+        "link": "#"
+      }
+    ],
+    "quotes": [
+      {
+        "id": "6251117d699d3bd5edda1601",
+        "quote": "Ullamco irure tempor commodo duis in nisi.",
+        "autor": "Anim pariatur ex adipisicing velit sit proident.",
+        "dateTime": "1993-02-24T14:21:12.624Z",
+        "date": "02 24 1993",
+        "source": "#",
+        "size": "default"
+      }
+    ]
+  },
+  {
+    "id": "625111e1401240160ed93562",
+    "title": "elit anim reprehenderit",
+    "description": "Laboris commodo magna magna sit officia nostrud id. Quis Lorem tempor sit exercitation Lorem esse deserunt irure. Sunt Lorem dolore ad magna nulla cillum cillum aliqua consequat reprehenderit veniam ullamco et. Elit do anim in do tempor.",
+    "articles": [
+      {
+        "id": "625111e16a40a41f34dc7d32",
+        "title": "Ipsum sint ex qui duis qui proident proident veniam aliqua qui adipisicing dolor.",
+        "link": "#"
+      },
+      {
+        "id": "625111e19bee654335b6127f",
+        "title": "Aute ex culpa consequat ipsum deserunt labore eiusmod consequat et nisi reprehenderit sit ut aute.",
+        "link": "#"
+      },
+      {
+        "id": "625111e11bd9af1984005bb2",
+        "title": "Aliqua irure consequat do dolore do enim elit duis deserunt.",
+        "link": "#"
+      },
+      {
+        "id": "625111e13404a26720c2c989",
+        "title": "Deserunt laborum reprehenderit est deserunt quis proident consectetur eu cillum aliqua occaecat consectetur ullamco.",
+        "link": "#"
+      }
+    ],
+    "quotes": [
+      {
+        "id": "625111e1737b4ed398f4714b",
+        "quote": "Consectetur et dolor consectetur magna.",
+        "autor": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "dateTime": "1991-10-07T23:54:10.139Z",
+        "date": "10 07 1991",
+        "source": "#",
+        "size": "default"
+      },
+      {
+        "id": "625111e14a5fc8d5d5fedddc",
+        "quote": "Amet ea qui tempor Lorem nostrud aliquip ex irure.",
+        "autor": "Ea ex qui consectetur irure ut cupidatat aute esse amet.",
+        "dateTime": "1996-06-23T01:40:29.251Z",
+        "date": "06 23 1996",
+        "source": "#",
+        "size": "default"
+      },
+      {
+        "id": "625111e1ecef1c3ddddb574c",
+        "quote": "Culpa sint irure magna ad cillum in non nulla Lorem fugiat.",
+        "autor": "Laborum proident enim amet elit nisi esse adipisicing laborum mollit magna duis cillum.",
+        "dateTime": "1996-03-08T12:53:54.317Z",
+        "date": "03 08 1996",
+        "source": "#",
+        "size": "default"
+      },
+      {
+        "id": "625111e14cf359bb01913257",
+        "quote": "Enim ea id velit ea fugiat deserunt deserunt culpa tempor adipisicing ad.",
+        "autor": "Cillum amet est adipisicing officia eu laborum magna officia.",
+        "dateTime": "1999-11-14T19:16:08.354Z",
+        "date": "11 14 1999",
+        "source": "#",
+        "size": "default"
+      },
+      {
+        "id": "625111e1d59460228f987d6b",
+        "quote": "Minim cillum ea quis cillum consequat enim nulla nostrud in ut elit minim fugiat.",
+        "autor": "Proident excepteur proident nisi ad aute ipsum amet aute dolore ipsum exercitation amet sint.",
+        "dateTime": "1998-07-15T17:51:57.108Z",
+        "date": "07 15 1998",
+        "source": "#",
+        "size": "default"
+      }
+    ]
+  }
+]
