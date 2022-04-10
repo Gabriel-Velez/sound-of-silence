@@ -24,10 +24,14 @@ const StyledQuotes = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 50px;
+    padding: 0;
   }
   &.quote-grid .quote-wrapper figure {
     padding: 10px 50px;
     padding-left: 0;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid grey;
   }
   &.quote-grid .two {
     grid-column-start: span 2;

@@ -35,10 +35,7 @@ const StyledQuote = styled.div`
   }
   figure {
     margin: 0;
-    margin-bottom: 20px;
-  }
-  figure:last-child {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 `;
 
