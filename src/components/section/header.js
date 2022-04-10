@@ -1,7 +1,20 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-const StyledHeader = styled.div``;
+const StyledHeader = styled.div`
+  margin: 20px 0;
+  h1 {
+    font-size: ${(props) => props.theme.fontSize.h1};
+    color: ${(props) => props.theme.colors.blue};
+    margin: 0;
+    font-weight: 400;
+  }
+  p {
+    color: ${(props) => props.theme.colors.grey};
+    font-size: ${(props) => props.theme.fontSize.p};
+    margin: 0;
+  }
+`;
 
 export default function Header(props) {
   const { title, description } = props;

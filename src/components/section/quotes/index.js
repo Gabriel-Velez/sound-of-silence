@@ -1,15 +1,45 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import Quote from "./Quote";
 
-const StyledQuotes = styled.div``;
+const StyledQuotes = styled.div`
+  &.quote-column {
+    float: right;
+    width: 33%;
+    margin-left: 50px;
+  }
+  .quote-wrapper {
+    border: double black;
+    border-left: none;
+    border-right: none;
+    padding: 20px 0;
+  }
+
+  &.quote-column .quote-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.quote-grid .quote-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &.quote-grid .quote-wrapper figure {
+    padding: 10px 50px;
+    padding-left: 0;
+  }
+  &.quote-grid .two {
+    grid-column-start: span 2;
+  }
+`;
 
 export default function Quotes(props) {
   const { quotes, quotesType, quotesSub } = props;
+  console.log(props);
   return (
-    <div>
+    <StyledQuotes className={quotesType === "grid" ? "quote-grid" : "quote-column"}>
       <h4>{quotesSub}</h4>
-      <StyledQuotes className={quotesType === "grid" ? "quote-grid" : "quote-flex"}>
+      <div className='quote-wrapper'>
         {quotes.map((quote) => {
           return (
             <Quote
@@ -23,7 +53,7 @@ export default function Quotes(props) {
               size={quote.size}></Quote>
           );
         })}
-      </StyledQuotes>
-    </div>
+      </div>
+    </StyledQuotes>
   );
 }

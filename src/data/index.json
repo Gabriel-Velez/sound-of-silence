@@ -1,7 +1,7 @@
 [
   {
     "id": "6251117d1ab7d16cf7c7f4dc",
-    "title": "mollit fugiat culpa",
+    "title": "Title 1",
     "description": "Id anim nisi consectetur fugiat aliquip cupidatat. Pariatur fugiat velit anim adipisicing sint est ullamco irure consectetur adipisicing. Commodo laborum sunt velit nostrud voluptate aute eu nisi ut. Minim anim eiusmod elit qui laboris deserunt qui fugiat quis pariatur ea consequat.",
     "articles": [
       {
@@ -11,7 +11,7 @@
       },
       {
         "id": "6251117d827fba67dd91c1d9",
-        "title": "Occaecat commodo sunt voluptate adipisicing voluptate Lorem.",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
         "link": "#"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "id": "6251117d9b43aa8b854f11cd",
-        "title": "Dolore incididunt ex Lorem qui ea sint non eiusmod pariatur in quis.",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
         "link": "#"
       },
       {
@@ -41,28 +41,28 @@
       },
       {
         "id": "6251117d8148826952ac5ba2",
-        "title": "Ea quis quis eiusmod id officia nisi eiusmod aliquip incididunt.",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
         "link": "#"
       }
     ],
-    "quotesSub": "qui adipisicing dolor",
-    "qutoesType": "column",
+    "quotesSub": "small quote headline",
+    "quotesType": "column",
     "quotes": [
       {
         "id": "6251117d699d3bd5edda1601",
-        "quote": "Ullamco irure tempor commodo duis in nisi.",
-        "author": "Anim pariatur",
+        "quote": "Contrary to popular belief, Lorem Ipsum is not simply p one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
+        "author": "Jhon Doe",
         "dateTime": "1993-02-24T14:21:12.624Z",
-        "date": "02 24 1993",
+        "date": "17 Oct 2020",
         "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "sourceTitle": "Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus",
         "size": "default"
       }
     ]
   },
   {
     "id": "625111e1401240160ed93562",
-    "title": "elit anim reprehenderit",
+    "title": "Title 2",
     "description": "Laboris commodo magna magna sit officia nostrud id. Quis Lorem tempor sit exercitation Lorem esse deserunt irure. Sunt Lorem dolore ad magna nulla cillum cillum aliqua consequat reprehenderit veniam ullamco et. Elit do anim in do tempor.",
     "articles": [
       {
@@ -86,18 +86,18 @@
         "link": "#"
       }
     ],
-    "qutoesType": "grid",
+    "quotesType": "grid",
     "quotesSub": "",
     "quotes": [
       {
         "id": "625111e1737b4ed398f4714b",
-        "quote": "Consectetur et dolor consectetur magna.",
+        "quote": "Contrary to popular belief, Lorem Ipsum is not simply random text. Pofessor at Hampden-Sydney College in Virginia, looked up one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
         "author": "Culpa incididunt",
         "dateTime": "1991-10-07T23:54:10.139Z",
         "date": "10 07 1991",
         "source": "#",
-        "sourceTitle": "Culpa incididunt",
-        "size": "default"
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "two"
       },
       {
         "id": "625111e14a5fc8d5d5fedddc",
