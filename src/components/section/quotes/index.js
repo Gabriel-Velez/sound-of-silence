@@ -23,6 +23,7 @@ const StyledQuotes = styled.div`
   &.quote-grid .quote-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
   }
   &.quote-grid .quote-wrapper figure {
     padding: 10px 50px;
