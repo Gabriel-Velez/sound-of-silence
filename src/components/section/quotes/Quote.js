@@ -35,7 +35,8 @@ const StyledQuote = styled.div`
   }
   figure {
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    border-top: 1px solid ${(props) => props.theme.colors.lightGrey};
   }
 `;
 

@@ -8,3 +8,14 @@ a:hover,
 a:active {
   color: inherit;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.App-Wrapper {
+  width: 80vw;
+}

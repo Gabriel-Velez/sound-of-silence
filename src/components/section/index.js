@@ -6,7 +6,9 @@ import styled from "styled-components";
 
 const StyledSection = styled.section`
   overflow: auto;
-  & > .article:nth-child(odd) {
+  overflow-x: hidden;
+  margin: 75px 0;
+  & > .article:nth-child(even) {
     color: ${(props) => props.theme.colors.grey};
   }
   h4 {

@@ -8,11 +8,12 @@ const StyledQuotes = styled.div`
     width: 33%;
     margin-left: 50px;
   }
+
   .quote-wrapper {
     border: double black;
     border-left: none;
     border-right: none;
-    padding: 20px 0;
+    margin-bottom: 40px;
   }
 
   &.quote-column .quote-wrapper {
@@ -20,19 +21,21 @@ const StyledQuotes = styled.div`
     flex-direction: column;
   }
 
+  &.quote-column .quote-wrapper figure {
+    padding: 20px 0;
+  }
+
   &.quote-grid .quote-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 50px;
     padding: 0;
   }
+
   &.quote-grid .quote-wrapper figure {
-    padding: 10px 50px;
+    padding: 20px 50px;
     padding-left: 0;
-    padding-top: 40px;
-    margin-bottom: 40px;
-    border-top: 1px solid grey;
   }
+
   &.quote-grid .two {
     grid-column-start: span 2;
   }
