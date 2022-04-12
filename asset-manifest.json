@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sound-of-silence/static/css/main.67701e3d.css",
+    "main.js": "/sound-of-silence/static/js/main.ec8dec75.js",
+    "static/js/787.4236d40e.chunk.js": "/sound-of-silence/static/js/787.4236d40e.chunk.js",
+    "static/media/videoPlaceholder.png": "/sound-of-silence/static/media/videoPlaceholder.021ecc97cdce8e3407f3.png",
+    "static/media/zanieLogo.png": "/sound-of-silence/static/media/zanieLogo.9d9261c10e71c2693600.png",
+    "static/media/zanieLogo.svg": "/sound-of-silence/static/media/zanieLogo.f0fcbd4847374da48df414c7e81ce401.svg",
+    "index.html": "/sound-of-silence/index.html",
+    "main.67701e3d.css.map": "/sound-of-silence/static/css/main.67701e3d.css.map",
+    "main.ec8dec75.js.map": "/sound-of-silence/static/js/main.ec8dec75.js.map",
+    "787.4236d40e.chunk.js.map": "/sound-of-silence/static/js/787.4236d40e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67701e3d.css",
+    "static/js/main.ec8dec75.js"
+  ]
+}
