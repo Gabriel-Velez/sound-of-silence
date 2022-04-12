@@ -7,6 +7,8 @@ const StyledFooter = styled.footer`
   margin-bottom: 40px;
   img {
     object-fit: contain;
+    width: 25%;
+    max-width: 200px;
   }
   p {
     margin-left: auto;
