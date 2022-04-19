@@ -22,4 +22,8 @@ export default {
     date: "1rem",
     quote: "1.6rem",
   },
+  idleTime: 2000,
+  animation: {
+    duration: ".5s",
+  },
 };
