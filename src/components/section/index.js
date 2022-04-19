@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Article from "./Article";
+import Header from "./header";
+import Article from "./article";
 import Quotes from "./quotes";
 import styled from "styled-components";
 
