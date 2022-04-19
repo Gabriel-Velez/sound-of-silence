@@ -43,7 +43,6 @@ const StyledQuotes = styled.div`
 
 export default function Quotes(props) {
   const { quotes, quotesType, quotesSub } = props;
-  console.log(props);
   return (
     <StyledQuotes className={quotesType === "grid" ? "quote-grid" : "quote-column"}>
       <h4>{quotesSub}</h4>
