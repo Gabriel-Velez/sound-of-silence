@@ -21,13 +21,12 @@ const StyledVideo = styled.div`
 
   video {
     max-height: 100vh;
-    transition: opacity ${(props) => props.theme.animation.duration};
+    transition: opacity 0.5s;
   }
   .videoTextWrapper {
     color: ${(props) => props.theme.colors.white};
     opacity: 0;
-    transition: opacity ${(props) => props.theme.animation.duration},
-      transform ${(props) => props.theme.animation.duration};
+    transition: opacity 0.5s, transform 0.5s;
     width: 100%;
     height: 100%;
     display: grid;
@@ -42,8 +41,7 @@ const StyledVideo = styled.div`
       position: absolute;
       transform: translate(-50%, calc(-50% + 25px));
       opacity: 0;
-      transition: opacity ${(props) => props.theme.animation.duration},
-        transform ${(props) => props.theme.animation.duration};
+      transition: opacity 0.5s, transform 0.5s;
       font-size: ${(props) => props.theme.fontSize.videoText};
       display: flex;
       flex-direction: column;
