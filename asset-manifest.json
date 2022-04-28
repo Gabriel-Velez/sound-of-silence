@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sound-of-silence/static/css/main.67701e3d.css",
-    "main.js": "/sound-of-silence/static/js/main.ec8dec75.js",
+    "main.css": "/sound-of-silence/static/css/main.cd19cff4.css",
+    "main.js": "/sound-of-silence/static/js/main.e2f711b1.js",
     "static/js/787.4236d40e.chunk.js": "/sound-of-silence/static/js/787.4236d40e.chunk.js",
-    "static/media/videoPlaceholder.png": "/sound-of-silence/static/media/videoPlaceholder.021ecc97cdce8e3407f3.png",
-    "static/media/zanieLogo.png": "/sound-of-silence/static/media/zanieLogo.9d9261c10e71c2693600.png",
-    "static/media/zanieLogo.svg": "/sound-of-silence/static/media/zanieLogo.f0fcbd4847374da48df414c7e81ce401.svg",
+    "static/media/opening.mp4": "/sound-of-silence/static/media/opening.db6b8b6a733822731eab.mp4",
+    "static/media/quote.jpeg": "/sound-of-silence/static/media/quote.c69aea2ef836956fee20.jpeg",
+    "static/media/review.svg": "/sound-of-silence/static/media/review.360572bfde00c588f10c0cf9ea0cbee2.svg",
     "index.html": "/sound-of-silence/index.html",
-    "main.67701e3d.css.map": "/sound-of-silence/static/css/main.67701e3d.css.map",
-    "main.ec8dec75.js.map": "/sound-of-silence/static/js/main.ec8dec75.js.map",
+    "main.cd19cff4.css.map": "/sound-of-silence/static/css/main.cd19cff4.css.map",
+    "main.e2f711b1.js.map": "/sound-of-silence/static/js/main.e2f711b1.js.map",
     "787.4236d40e.chunk.js.map": "/sound-of-silence/static/js/787.4236d40e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67701e3d.css",
-    "static/js/main.ec8dec75.js"
+    "static/css/main.cd19cff4.css",
+    "static/js/main.e2f711b1.js"
   ]
 }
