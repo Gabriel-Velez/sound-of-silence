@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark, faEnvelope, faHashtag, faHouse } from "@fortawesome/free-solid-svg-icons";
 import theme from "../../theme";
 
 const StyledNav = styled.nav`
   position: fixed;
   top: 20px;
   right: 20px;
-  cursor: pointer;
   z-index: 5;
   transition: opacity ${(props) => props.theme.animation.duration},
     visibility ${(props) => props.theme.animation.duration};
@@ -23,10 +22,94 @@ const StyledNav = styled.nav`
     padding: 20px;
     cursor: pointer;
   }
+  .modal {
+    position: fixed;
+    background-color: ${(props) => props.theme.colors.red};
+    width: 100%;
+    max-width: 250px;
+    top: 0;
+    z-index: 100;
+    right: 0;
+    padding-bottom: 20px;
+    transform: translateX(300px);
+    transition: transform ${(props) => props.theme.animation.duration};
+    &.open {
+      transform: translateX(0);
+    }
+    button {
+      padding: 0;
+      background: transparent;
+      border: none;
+      float: right;
+      svg {
+        color: ${(props) => props.theme.colors.white};
+        padding: 20px;
+        &:hover {
+          color: ${(props) => props.theme.colors.black};
+        }
+      }
+    }
+    .navLink {
+      color: ${(props) => props.theme.colors.white};
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      padding: 20px 40px;
+      a {
+        text-decoration: none;
+        &:hover {
+          color: ${(props) => props.theme.colors.black};
+          font-weight: 600;
+        }
+      }
+      &:first-of-type {
+        margin-top: 50px;
+      }
+      &:last-of-type {
+        margin-bottom: 50px;
+      }
+    }
+    .sm {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      svg {
+        color: ${(props) => props.theme.colors.white};
+        &:hover {
+          color: ${(props) => props.theme.colors.black};
+        }
+      }
+    }
+  }
+  .cover {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: ${(props) => props.theme.colors.opaqueBlack};
+    transition: opacity ${(props) => props.theme.animation.duration},
+      visibility ${(props) => props.theme.animation.duration};
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    &.open {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 `;
 
 export default function Nav() {
   let timer = null;
+  const openNav = () => {
+    document.querySelector(".modal").classList.add("open");
+    document.querySelector(".cover").classList.add("open");
+  };
+  const closeNav = () => {
+    document.querySelector(".modal").classList.remove("open");
+    document.querySelector(".cover").classList.remove("open");
+  };
   const handelUpdate = () => {
     const vid = document.querySelector("#splashVideo");
     const navVar = document.querySelector("#nav");
@@ -51,8 +134,37 @@ export default function Nav() {
     };
   }, []);
   return (
-    <StyledNav id='nav'>
-      <FontAwesomeIcon icon={faBars} />
+    <StyledNav className='open' id='nav'>
+      <FontAwesomeIcon icon={faBars} onClick={openNav} />
+      <div className='modal'>
+        <button onClick={closeNav}>
+          <FontAwesomeIcon icon={faXmark} />
+        </button>
+        <div className='navLink'>
+          <a href='#'>Video</a>
+        </div>
+        <div className='navLink'>
+          <a href='#'>Research</a>
+        </div>
+        <div className='navLink'>
+          <a href='#'>Sales Material</a>
+        </div>
+        <div className='navLink'>
+          <a href='#'>More About Zanie</a>
+        </div>
+        <div className='sm'>
+          <a href='#'>
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+          <a href='#'>
+            <FontAwesomeIcon icon={faHashtag} />
+          </a>
+          <a href='#'>
+            <FontAwesomeIcon icon={faHouse} />
+          </a>
+        </div>
+      </div>
+      <div className='cover' onClick={closeNav}></div>
     </StyledNav>
   );
 }

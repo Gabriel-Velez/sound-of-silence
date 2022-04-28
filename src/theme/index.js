@@ -6,6 +6,7 @@ export default {
     lightGrey: "#a1a1a1",
     black: "black",
     white: "white",
+    opaqueBlack: "rgba(0, 0, 0, 0.75)",
   },
   breakPoints: {
     mobile: "{max-width: 480px}",
@@ -21,6 +22,7 @@ export default {
     author: "1rem",
     date: "1rem",
     quote: "1.6rem",
+    videoText: "1.5rem",
   },
   idleTime: 2000,
   animation: {
