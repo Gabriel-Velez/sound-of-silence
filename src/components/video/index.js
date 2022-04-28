@@ -74,6 +74,9 @@ const StyledVideo = styled.div`
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
+      span {
+        display: none;
+      }
     }
   }
 
@@ -97,7 +100,9 @@ export default function Video() {
     const vidText = document.querySelector(".videoTextWrapper");
     if (vid.paused) {
       vidText.classList.remove("paused");
-      vidText.classList.remove("pausedInital");
+      setTimeout(function () {
+        vidText.classList.remove("pausedInital");
+      }, 500);
       vidText.classList.add("playing");
       if (inVid === true) vid.play();
     } else {
@@ -105,6 +110,11 @@ export default function Video() {
       vidText.classList.remove("playing");
       if (inVid === true) vid.pause();
     }
+  };
+  const displayTextEnded = () => {
+    const vidText = document.querySelector(".videoTextWrapper");
+    vidText.classList.add("paused");
+    vidText.classList.remove("playing");
   };
 
   return (
@@ -123,6 +133,7 @@ export default function Video() {
       </div>
       <video
         onClick={() => displayText(false)}
+        onEnded={displayTextEnded}
         className='onlyTimeline'
         id='splashVideo'
         width='100%'
