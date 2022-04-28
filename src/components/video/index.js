@@ -72,6 +72,8 @@ const StyledVideo = styled.div`
     &.pausedInital {
       background-image: url(${initalImg});
       background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
   }
 
