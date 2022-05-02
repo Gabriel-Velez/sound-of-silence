@@ -98,6 +98,13 @@ const StyledNav = styled.nav`
       visibility: visible;
     }
   }
+
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    .modal {
+      width: 100%;
+      height: 100%;
+    }
+  }
 `;
 
 export default function Nav() {

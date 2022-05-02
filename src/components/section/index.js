@@ -16,6 +16,10 @@ const StyledSection = styled.section`
     font-size: ${(props) => props.theme.fontSize.quoteHeadline};
     margin: 10px 0;
   }
+
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    margin: 35px 0;
+  }
 `;
 
 export default function Section(props) {

@@ -38,6 +38,11 @@ const StyledQuote = styled.div`
     margin-bottom: 20px;
     border-top: 1px solid ${(props) => props.theme.colors.lightGrey};
   }
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    q {
+      font-size: ${(props) => props.theme.fontSize.mobile.quote};
+    }
+  }
 `;
 
 export default function Quotes(props) {

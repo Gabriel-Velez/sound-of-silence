@@ -14,17 +14,33 @@ const StyledFooter = styled.footer`
   .end {
     display: flex;
     align-items: center;
+    justify-content: center;
     img {
       max-width: 200px;
       object-fit: contain;
+      margin: 0 5px;
     }
     p {
       margin-left: auto;
     }
     .sm {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-items: center;
       > * {
-        font-size: 2rem;
-        margin-left: 20px;
+        font-size: 1.75rem;
+        margin: 0 10px;
+      }
+    }
+  }
+  @media only screen and (${(props) => props.theme.breakPoints.tablet}) {
+    display: flex;
+    flex-direction: column;
+
+    .end {
+      .sm {
+        flex-wrap: wrap;
       }
     }
   }

@@ -9,10 +9,10 @@ export default {
     opaqueBlack: "rgba(0, 0, 0, 0.75)",
   },
   breakPoints: {
-    mobile: "{max-width: 480px}",
-    tablet: "{max-width: 770px}",
-    desktop: "{max-width: 1200px}",
-    ultraWide: "{max-width: 1500px}",
+    mobile: "max-width: 500px",
+    tablet: "max-width: 800px",
+    desktop: "max-width: 1200px",
+    ultraWide: "max-width: 1500px",
   },
   fontSize: {
     h1: "4rem",
@@ -23,6 +23,14 @@ export default {
     date: "1rem",
     quote: "1.6rem",
     videoText: "1.5rem",
+    playButton: "6rem",
+    mobile: {
+      h1: "3rem",
+      videoText: "1rem",
+      quote: "1.5rem",
+      article: "1rem",
+      playButton: "4rem",
+    },
   },
   idleTime: 2000,
   animation: {

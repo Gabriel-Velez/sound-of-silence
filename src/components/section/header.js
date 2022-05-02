@@ -14,6 +14,11 @@ const StyledHeader = styled.div`
     font-size: ${(props) => props.theme.fontSize.p};
     margin: 0;
   }
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    h1 {
+      font-size: ${(props) => props.theme.fontSize.mobile.h1};
+    }
+  }
 `;
 
 export default function Header(props) {

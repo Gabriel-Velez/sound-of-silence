@@ -53,7 +53,7 @@ const StyledVideo = styled.div`
       }
       svg {
         display: block;
-        font-size: 6rem;
+        font-size: ${(props) => props.theme.fontSize.playButton};
         margin-bottom: 30px;
       }
     }
@@ -90,6 +90,17 @@ const StyledVideo = styled.div`
   .vidHidden::-webkit-media-controls-panel {
     opacity: 0;
   }
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    .videoTextWrapper {
+      > div {
+        font-size: ${(props) => props.theme.fontSize.mobile.videoText};
+        svg {
+          font-size: ${(props) => props.theme.fontSize.mobile.playButton};
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 `;
 
 export default function Video() {
@@ -117,7 +128,10 @@ export default function Video() {
 
   return (
     <StyledVideo>
-      <div onClick={() => displayText(true)} className='videoTextWrapper paused pausedInital'>
+      <div
+        onClick={() => displayText(true)}
+        OnTouchStart={() => displayText(true)}
+        className='videoTextWrapper paused pausedInital'>
         <div>
           <FontAwesomeIcon icon={faCirclePlay} />
           <span>
@@ -131,6 +145,7 @@ export default function Video() {
       </div>
       <video
         onClick={() => displayText(false)}
+        OnTouchStart={() => displayText(false)}
         onEnded={displayTextEnded}
         className='onlyTimeline'
         id='splashVideo'

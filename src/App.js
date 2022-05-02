@@ -5,13 +5,24 @@ import Video from "./components/video";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
 
+import styled from "styled-components";
+
+const StyledWrapper = styled.div`
+  width: 80vw;
+  max-width: 1440px;
+
+  @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
+    width: 90vw;
+  }
+`;
+
 function App() {
   return (
     <>
       <Nav />
       <div className='App'>
         <Video />
-        <div className='App-Wrapper'>
+        <StyledWrapper>
           {data.map((section) => {
             return (
               <Section
@@ -25,7 +36,7 @@ function App() {
             );
           })}
           <Footer />
-        </div>
+        </StyledWrapper>
       </div>
     </>
   );

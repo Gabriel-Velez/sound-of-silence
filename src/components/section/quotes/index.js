@@ -39,6 +39,23 @@ const StyledQuotes = styled.div`
   &.quote-grid .two {
     grid-column-start: span 2;
   }
+
+  @media only screen and (${(props) => props.theme.breakPoints.tablet}) {
+    &.quote-column {
+      float: none;
+      width: 100%;
+      margin-left: 0;
+    }
+    &.quote-grid .quote-wrapper {
+      grid-template-columns: 1fr;
+    }
+    &.quote-grid .two {
+      grid-column-start: initial;
+    }
+    &.quote-grid .quote-wrapper figure {
+      padding: 20px 0;
+    }
+  }
 `;
 
 export default function Quotes(props) {
