@@ -14,7 +14,6 @@ const StyledFooter = styled.footer`
   .end {
     display: flex;
     align-items: center;
-    justify-content: center;
     img {
       max-width: 200px;
       object-fit: contain;
