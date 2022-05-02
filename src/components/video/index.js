@@ -130,7 +130,7 @@ export default function Video() {
     <StyledVideo>
       <div
         onClick={() => displayText(true)}
-        OnTouchStart={() => displayText(true)}
+        onTouchStart={() => displayText(true)}
         className='videoTextWrapper paused pausedInital'>
         <div>
           <FontAwesomeIcon icon={faCirclePlay} />
@@ -145,7 +145,7 @@ export default function Video() {
       </div>
       <video
         onClick={() => displayText(false)}
-        OnTouchStart={() => displayText(false)}
+        onTouchStart={() => displayText(false)}
         onEnded={displayTextEnded}
         className='onlyTimeline'
         id='splashVideo'
