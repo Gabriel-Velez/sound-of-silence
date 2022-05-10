@@ -1,0 +1,144 @@
+[
+  {
+    "id": "6251117d1ab7d16cf7c7f4dc",
+    "title": "Title 1",
+    "description": "Id anim nisi consectetur fugiat aliquip cupidatat. Pariatur fugiat velit anim adipisicing sint est ullamco irure consectetur adipisicing. Commodo laborum sunt velit nostrud voluptate aute eu nisi ut. Minim anim eiusmod elit qui laboris deserunt qui fugiat quis pariatur ea consequat.",
+    "articles": [
+      {
+        "id": "6251117d3ab90eb3dc7ac872",
+        "title": "Veniam in esse est voluptate cillum ea in.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d827fba67dd91c1d9",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
+        "link": "#"
+      },
+      {
+        "id": "6251117d627afe85d3731900",
+        "title": "Bibendum neque egestas congue quisque. Mi bibendum neque egestas congue quisque egestas. Tristique risus nec feugiat in fermentum posuere. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d1d1502fbee4c94ba",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "link": "#"
+      },
+      {
+        "id": "6251117da8abf31664545854",
+        "title": "Ipsum adipisicing minim eiusmod aliqua minim exercitation do excepteur enim nostrud excepteur.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d9b43aa8b854f11cd",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
+        "link": "#"
+      },
+      {
+        "id": "6251117de3854fc8c712f505",
+        "title": "Esse nisi magna tempor aute eu amet ex laboris adipisicing est ea.",
+        "link": "#"
+      },
+      {
+        "id": "6251117d8148826952ac5ba2",
+        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
+        "link": "#"
+      }
+    ],
+    "quotesSub": "small quote headline",
+    "quotesType": "column",
+    "quotes": [
+      {
+        "id": "6251117d699d3bd5edda1601",
+        "quote": "Contrary to popular belief, Lorem Ipsum is not simply p one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
+        "author": "Jhon Doe",
+        "dateTime": "1993-02-24T14:21:12.624Z",
+        "date": "17 Oct 2020",
+        "source": "#",
+        "sourceTitle": "Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus",
+        "size": "default"
+      }
+    ]
+  },
+  {
+    "id": "625111e1401240160ed93562",
+    "title": "Title 2",
+    "description": "Laboris commodo magna magna sit officia nostrud id. Quis Lorem tempor sit exercitation Lorem esse deserunt irure. Sunt Lorem dolore ad magna nulla cillum cillum aliqua consequat reprehenderit veniam ullamco et. Elit do anim in do tempor.",
+    "articles": [
+      {
+        "id": "625111e16a40a41f34dc7d32",
+        "title": "Ipsum sint ex qui duis qui proident proident veniam aliqua qui adipisicing dolor.",
+        "link": "#"
+      },
+      {
+        "id": "625111e19bee654335b6127f",
+        "title": "Aute ex culpa consequat ipsum deserunt labore eiusmod consequat et nisi reprehenderit sit ut aute.",
+        "link": "#"
+      },
+      {
+        "id": "625111e11bd9af1984005bb2",
+        "title": "Aliqua irure consequat do dolore do enim elit duis deserunt.",
+        "link": "#"
+      },
+      {
+        "id": "625111e13404a26720c2c989",
+        "title": "Deserunt laborum reprehenderit est deserunt quis proident consectetur eu cillum aliqua occaecat consectetur ullamco.",
+        "link": "#"
+      }
+    ],
+    "quotesType": "grid",
+    "quotesSub": "",
+    "quotes": [
+      {
+        "id": "625111e1737b4ed398f4714b",
+        "quote": "Contrary to popular belief, Lorem Ipsum is not simply random text. Pofessor at Hampden-Sydney College in Virginia, looked up one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
+        "author": "Culpa incididunt",
+        "dateTime": "1991-10-07T23:54:10.139Z",
+        "date": "10 07 1991",
+        "source": "#",
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "two"
+      },
+      {
+        "id": "625111e14a5fc8d5d5fedddc",
+        "quote": "Amet ea qui tempor Lorem nostrud aliquip ex irure.",
+        "author": "Ea ex",
+        "dateTime": "1996-06-23T01:40:29.251Z",
+        "date": "06 23 1996",
+        "source": "#",
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "default"
+      },
+      {
+        "id": "625111e1ecef1c3ddddb574c",
+        "quote": "Culpa sint irure magna ad cillum in non nulla Lorem fugiat.",
+        "author": "Laborum proident",
+        "dateTime": "1996-03-08T12:53:54.317Z",
+        "date": "03 08 1996",
+        "source": "#",
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "default"
+      },
+      {
+        "id": "625111e14cf359bb01913257",
+        "quote": "Enim ea id velit ea fugiat deserunt deserunt culpa tempor adipisicing ad.",
+        "author": "Cillum amet",
+        "dateTime": "1999-11-14T19:16:08.354Z",
+        "date": "11 14 1999",
+        "source": "#",
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "default"
+      },
+      {
+        "id": "625111e1d59460228f987d6b",
+        "quote": "Minim cillum ea quis cillum consequat enim nulla nostrud in ut elit minim fugiat.",
+        "author": "Proident excepteur",
+        "dateTime": "1998-07-15T17:51:57.108Z",
+        "date": "07 15 1998",
+        "source": "#",
+        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "size": "default"
+      }
+    ]
+  }
+]

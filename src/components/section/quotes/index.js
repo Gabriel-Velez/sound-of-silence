@@ -39,6 +39,9 @@ const StyledQuotes = styled.div`
   &.quote-grid .two {
     grid-column-start: span 2;
   }
+  &.quote-grid .three {
+    grid-column-start: span 3;
+  }
 
   @media only screen and (${(props) => props.theme.breakPoints.tablet}) {
     &.quote-column {
@@ -49,7 +52,8 @@ const StyledQuotes = styled.div`
     &.quote-grid .quote-wrapper {
       grid-template-columns: 1fr;
     }
-    &.quote-grid .two {
+    &.quote-grid .two,
+    &.quote-grid .three {
       grid-column-start: initial;
     }
     &.quote-grid .quote-wrapper figure {

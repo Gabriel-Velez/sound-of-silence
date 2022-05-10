@@ -1,89 +1,164 @@
 [
   {
     "id": "6251117d1ab7d16cf7c7f4dc",
-    "title": "Title 1",
-    "description": "Id anim nisi consectetur fugiat aliquip cupidatat. Pariatur fugiat velit anim adipisicing sint est ullamco irure consectetur adipisicing. Commodo laborum sunt velit nostrud voluptate aute eu nisi ut. Minim anim eiusmod elit qui laboris deserunt qui fugiat quis pariatur ea consequat.",
+    "title": "Loneliness is an epidemic in the world now. What’s behind it, and how can companies support their workers through it?",
+    "description": "",
     "articles": [
       {
         "id": "6251117d3ab90eb3dc7ac872",
-        "title": "Veniam in esse est voluptate cillum ea in.",
-        "link": "#"
+        "title": "The New Yorker: How Everyone Got So Lonely",
+        "link": "https://www.newyorker.com/magazine/2022/04/11/how-everyone-got-so-lonely-laura-kipnis-noreena-hertz"
       },
       {
         "id": "6251117d827fba67dd91c1d9",
-        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
-        "link": "#"
+        "title": "NPR:  Most Americans Are Lonely, And Our Workplace Culture May Not Be Helping",
+        "link": "https://www.npr.org/sections/health-shots/2020/01/23/798676465/most-americans-are-lonely-and-our-workplace-culture-may-not-be-helping"
       },
       {
         "id": "6251117d627afe85d3731900",
-        "title": "Bibendum neque egestas congue quisque. Mi bibendum neque egestas congue quisque egestas. Tristique risus nec feugiat in fermentum posuere. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.",
-        "link": "#"
+        "title": "The New York Times:  Across the World, Covid Anxiety and Depression Take Hold",
+        "link": "https://www.nytimes.com/2021/12/13/world/europe/covid-anxiety-depression-omicron.html"
       },
       {
         "id": "6251117d1d1502fbee4c94ba",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "link": "#"
+        "title": "The Atlantic:  The Coronavirus Could Cause a Social Recession",
+        "link": "https://www.theatlantic.com/ideas/archive/2020/03/america-faces-social-recession/608548/"
       },
       {
         "id": "6251117da8abf31664545854",
-        "title": "Ipsum adipisicing minim eiusmod aliqua minim exercitation do excepteur enim nostrud excepteur.",
-        "link": "#"
+        "title": "Harvard Business Review:  Burnout at Work Isn't Just About Exhaustion. It's Also About Loneliness",
+        "link": "https://hbr.org/2017/06/burnout-at-work-isnt-just-about-exhaustion-its-also-about-loneliness"
       },
       {
         "id": "6251117d9b43aa8b854f11cd",
-        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
-        "link": "#"
+        "title": "Cigna:  Loneliness and the Workplace - Annual Report",
+        "link": "https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-report.pdf"
       },
       {
         "id": "6251117de3854fc8c712f505",
-        "title": "Esse nisi magna tempor aute eu amet ex laboris adipisicing est ea.",
-        "link": "#"
+        "title": "Harvard Business Review:  Employees Are Lonelier Than Ever. Here's How Employers Can Help.",
+        "link": "https://hbr.org/2021/06/employees-are-lonelier-than-ever-heres-how-employers-can-help"
       },
       {
         "id": "6251117d8148826952ac5ba2",
-        "title": "Ansectetur adipiscing elit, sed do mod dolore as sit ac lacus tristique vel. or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure ther",
-        "link": "#"
+        "title": "FM Magazine:  5 tips for addressing loneliness in the workplace ",
+        "link": "https://www.fm-magazine.com/news/2021/apr/how-to-address-loneliness-at-work.html"
       }
     ],
-    "quotesSub": "small quote headline",
-    "quotesType": "column",
+    "quotesSub": "",
+    "quotesType": "grid",
     "quotes": [
       {
         "id": "6251117d699d3bd5edda1601",
-        "quote": "Contrary to popular belief, Lorem Ipsum is not simply p one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
-        "author": "Jhon Doe",
-        "dateTime": "1993-02-24T14:21:12.624Z",
-        "date": "17 Oct 2020",
-        "source": "#",
-        "sourceTitle": "Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos himenaeos. Suspendisse faucibus",
+        "quote": "Our employees have been reporting mental health issues at a higher rate than we've had any other year…I think the best companies will look to intentionally develop culture in this all digital work, anywhere world.",
+        "author": "Bret Taylor",
+        "dateTime": "",
+        "date": "Co-Ceo",
+        "source": "",
+        "sourceTitle": "",
+        "size": "default"
+      },
+      {
+        "id": "627ac5fb05bade6eaf929dec",
+        "quote": "Just because it’s possible to write code, doesn’t mean you should write code…As much as I'm excited about the potential of data, it also has the potential to be used in the wrong way. We have to lead with our values, not just our technology.",
+        "author": "Parker Harris",
+        "dateTime": "",
+        "date": "Co-Founder & CTO",
+        "source": "https://www.salesforce.com/news/stories/trust-in-the-time-of-ai-why-salesforce-invests-in-ethical-guardrails/",
+        "sourceTitle": "Trust in the Time of AI: Why Salesforce Invests in Ethical Guardrails",
+        "size": "default"
+      },
+      {
+        "id": "627ac5fb299cce5bafc362f0",
+        "quote": "Is trust our highest value? We have to ask ourselves personally, but organizationally as well. Then we have to operationalize that value.",
+        "author": "Marc Benioff",
+        "dateTime": "",
+        "date": "Chair, Co-Ceo & Co-Founder",
+        "source": "",
+        "sourceTitle": "",
         "size": "default"
       }
     ]
   },
   {
     "id": "625111e1401240160ed93562",
-    "title": "Title 2",
-    "description": "Laboris commodo magna magna sit officia nostrud id. Quis Lorem tempor sit exercitation Lorem esse deserunt irure. Sunt Lorem dolore ad magna nulla cillum cillum aliqua consequat reprehenderit veniam ullamco et. Elit do anim in do tempor.",
+    "title": "Millennials and Gen Z are the loneliest generations… and they’re poised to make up the majority of the workforce very soon. What do they need to be healthier and to succeed?",
+    "description": "",
     "articles": [
       {
         "id": "625111e16a40a41f34dc7d32",
-        "title": "Ipsum sint ex qui duis qui proident proident veniam aliqua qui adipisicing dolor.",
-        "link": "#"
+        "title": "Pew:  Millennials are largest generation in the US labor force | Pew Research Center",
+        "link": "https://www.pewresearch.org/fact-tank/2018/04/11/millennials-largest-generation-us-labor-force/"
       },
       {
         "id": "625111e19bee654335b6127f",
-        "title": "Aute ex culpa consequat ipsum deserunt labore eiusmod consequat et nisi reprehenderit sit ut aute.",
-        "link": "#"
+        "title": "Deloitte:  The Deloitte Global 2021 Millennial and Gen Z Survey",
+        "link": "https://www2.deloitte.com/global/en/pages/about-deloitte/articles/millennialsurvey.html"
       },
       {
         "id": "625111e11bd9af1984005bb2",
-        "title": "Aliqua irure consequat do dolore do enim elit duis deserunt.",
-        "link": "#"
+        "title": "The New York Times: ‘It’s Life or Death’: The Mental Health Crisis Among U.S. Teens",
+        "link": "https://www.nytimes.com/2022/04/23/health/mental-health-crisis-teens.html"
       },
       {
         "id": "625111e13404a26720c2c989",
-        "title": "Deserunt laborum reprehenderit est deserunt quis proident consectetur eu cillum aliqua occaecat consectetur ullamco.",
-        "link": "#"
+        "title": "The New York Times: Despair Deepens for Young People as Pandemic Drags On - The New York Times",
+        "link": "https://www.nytimes.com/2021/02/14/world/europe/youth-mental-health-covid.html"
+      },
+      {
+        "id": "627ac5fb00c74bf66a92d0bf",
+        "title": "The Atlantic: Why American Teens Are So Sad",
+        "link": "https://www.theatlantic.com/newsletters/archive/2022/04/american-teens-sadness-depression-anxiety/629524/"
+      },
+      {
+        "id": "627ac5fbd6f8df1465855964",
+        "title": "Seattle Times:  Attention, HR: Millennials crave workplace bonding, friendship",
+        "link": "https://www.seattletimes.com/explore/careers/attention-hr-millennials-crave-workplace-bonding-friendship/"
+      },
+      {
+        "id": "627ac5fba0f5c6e727c4a256",
+        "title": "What to Become–Statistics Collection:  25 Stats About Millennials in the Workplace [2021]",
+        "link": "https://whattobecome.com/blog/millennials-in-the-workplace/"
+      },
+      {
+        "id": "627ac5fb813e0101c4e013b9",
+        "title": "TeamStage:  Millennials in the Workplace Statistics: Generational Disparities in 2022 ",
+        "link": "https://teamstage.io/millennials-in-the-workplace-statistics/"
+      },
+      {
+        "id": "627ac5fb8ad07431b841db1f",
+        "title": "CNBC:  Half of millennials and 75% of Gen-Zers have left jobs for mental health reasons",
+        "link": "https://www.cnbc.com/2019/10/08/millennials-gen-z-have-quit-jobs-due-to-mental-health-issues-survey.html"
+      },
+      {
+        "id": "627ac5fb817b34436826e266",
+        "title": "TLNT:  Friends at Work: The Younger You Are, the More Important They Become",
+        "link": "https://www.tlnt.com/friends-at-work-the-younger-you-are-the-more-important-they-become/"
+      },
+      {
+        "id": "627ac5fb0c7bd000a2e49792",
+        "title": "Firstup:  Key statistics about Millennials in the workplace",
+        "link": "https://firstup.io/blog/key-statistics-millennials-in-the-workplace/"
+      },
+      {
+        "id": "627ac5fb5f5e2aa0a15213bb",
+        "title": "Metro UK:  Millennials Struggle to Make Friends at Work – And it’s Damaging Our Mental Health",
+        "link": "https://metro.co.uk/2019/05/20/millennials-struggle-make-friends-work-damaging-mental-health-9609038/"
+      },
+      {
+        "id": "627ac5fbc8949b239a05e3b1",
+        "title": "SurveyMonkey:  Millennials vs. Gen-X in the workplace: differences and similarities",
+        "link": "https://www.surveymonkey.com/mp/millennials-vs-gen-x-differences-and-similarities-in-the-workplace/"
+      },
+      {
+        "id": "627ac5fb1b06ee5e920bfe3b",
+        "title": "Great Place to Work:  The Companies Millennials Want to Work For in 2021 and Why",
+        "link": "https://www.greatplacetowork.com/press-releases/2021-fortune-best-workplaces-for-millennials-press-release"
+      },
+      {
+        "id": "627ac5fb1391b2103e5faeef",
+        "title": "Glenn Leader:  Nearly 1 in 4 Gen Z Employees are Lonely at Work",
+        "link": "https://glennleader.com/latest-posts/nearly-1-in-4-gen-z-employees-are-lonely-at-work/"
       }
     ],
     "quotesType": "grid",
@@ -91,53 +166,154 @@
     "quotes": [
       {
         "id": "625111e1737b4ed398f4714b",
-        "quote": "Contrary to popular belief, Lorem Ipsum is not simply random text. Pofessor at Hampden-Sydney College in Virginia, looked up one of contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of",
-        "author": "Culpa incididunt",
-        "dateTime": "1991-10-07T23:54:10.139Z",
-        "date": "10 07 1991",
-        "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
-        "size": "two"
+        "quote": "The world is experiencing a #greatresignation, not because people don’t want to work, but because people did not feel valued or find value in their work…People are thinking, feeling, and making decisions differently. Added together, Generation Novel represents a connected consumer, by choice or by default, whose decisions are now also driven by the stressors, feelings, and consequences of a global pandemic.",
+        "author": "Brian Solis",
+        "dateTime": "",
+        "date": "Global Innovation Evangelist",
+        "source": "",
+        "sourceTitle": "",
+        "size": "three"
       },
       {
         "id": "625111e14a5fc8d5d5fedddc",
-        "quote": "Amet ea qui tempor Lorem nostrud aliquip ex irure.",
-        "author": "Ea ex",
-        "dateTime": "1996-06-23T01:40:29.251Z",
-        "date": "06 23 1996",
-        "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "quote": "It has never been more important to empower employees with technology that helps them to be happy and productive as part of the team.",
+        "author": "Sarah Franklin",
+        "dateTime": "",
+        "date": "President & Chief Marketing Officer",
+        "source": "",
+        "sourceTitle": "",
         "size": "default"
       },
       {
         "id": "625111e1ecef1c3ddddb574c",
-        "quote": "Culpa sint irure magna ad cillum in non nulla Lorem fugiat.",
-        "author": "Laborum proident",
-        "dateTime": "1996-03-08T12:53:54.317Z",
-        "date": "03 08 1996",
-        "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "quote": "The leadership and everyone at Salesforce is committed to ensuring that everyone that is a part of the company has the resources they need to work, be mentally taken care of, and stay safe and healthy.",
+        "author": "Suzanne DiBianca",
+        "dateTime": "",
+        "date": "EVP Corporate Relations & Chief Impact Officer",
+        "source": "",
+        "sourceTitle": "",
+        "size": "two"
+      }
+    ]
+  },
+  {
+    "id": "627ac5fb0d47ef5b80f08eee",
+    "title": "The Future of Work is here, whether we’re ready or not. What patterns are unfolding so far? What can we expect with remote and hybrid arrangements? And how can we meet the challenges of this new frontier?",
+    "description": "",
+    "articles": [
+      {
+        "id": "627ac5fb3ea5dd8e4c8212de",
+        "title": "McKinsey:  Psychological-safety leadership in a time of flux",
+        "link": "https://www.mckinsey.com/featured-insights/leadership/psychological-safety-emotional-intelligence-and-leadership-in-a-time-of-flux"
+      },
+      {
+        "id": "627ac5fb71073f2aae194df5",
+        "title": "MIT Sloan Management Review: The Loneliness of the Hybrid Worker",
+        "link": "https://sloanreview.mit.edu/article/the-loneliness-of-the-hybrid-worker/"
+      },
+      {
+        "id": "627ac5fbc5049cc8d5e2c998",
+        "title": "Boston University: Work Burnout Signs: What to Look for and What to Do about It ",
+        "link": "https://www.bu.edu/articles/2022/work-burnout-signs-symptoms/"
+      },
+      {
+        "id": "627ac5fbba3d89294875365d",
+        "title": "Buffer:  2022 State of Remote Work",
+        "link": "https://buffer.com/state-of-remote-work/2022"
+      },
+      {
+        "id": "627ac5fb9ae4eb3b148f7690",
+        "title": "NPR:  Working from home doesn't have to suck. Here's how 'Out Of Office' can be better",
+        "link": "https://www.npr.org/2021/11/29/1059829390/working-from-home-doesnt-have-to-suck-heres-how-out-of-office-can-be-better"
+      },
+      {
+        "id": "627ac5fbe49492bd8d8c8cc6",
+        "title": "NBC News: When it comes to remote work, be careful what you wish for",
+        "link": "https://www.nbcnews.com/think/opinion/work-home-flexible-hours-office-policies-can-seem-great-are-downsides-rcna26423"
+      },
+      {
+        "id": "627ac5fbe55bfa6ce56ef8f4",
+        "title": "The Washington Post:  Requiring workers to return to the office is a ‘doomed approach’",
+        "link": "https://www.msn.com/en-us/news/technology/future-of-work-requiring-workers-to-return-to-the-office-is-a-e2-80-98doomed-approach-e2-80-99/ar-AARLBgi"
+      },
+      {
+        "id": "627ac5fb92437c0d13548813",
+        "title": "Technology Signals:  What's the Formula Behind the World's Best Workplace?",
+        "link": "https://technology-signals.com/whats-the-formula-behind-the-worlds-best-workplace/"
+      },
+      {
+        "id": "627ac5fbaae953b2b18b94c2",
+        "title": "Gartner:  Maintain Diversity and Inclusion During Pandemics",
+        "link": "https://www.gartner.com/smarterwithgartner/maintain-diversity-and-inclusion-during-pandemics"
+      },
+      {
+        "id": "627ac5fb6cdc85d12d2a2c73",
+        "title": "Salesforce:  New Survey Data Shows Possible Scenarios for the Future of Offices, Commuting, and Cities - Salesforce News",
+        "link": "https://www.salesforce.com/news/stories/new-survey-data-shows-possible-scenarios-for-the-future-of-offices-commuting-and-cities/"
+      }
+    ],
+    "quotesType": "grid",
+    "quotesSub": "",
+    "quotes": [
+      {
+        "id": "627ac5fb231a31c7c2973d7e",
+        "quote": "It’s our responsibility to come up with ways for our teams to connect and have some fun – no matter where they are.",
+        "author": "Stewart Butterfield",
+        "dateTime": "",
+        "date": "CEO, Slack",
+        "source": "",
+        "sourceTitle": "",
         "size": "default"
       },
       {
-        "id": "625111e14cf359bb01913257",
-        "quote": "Enim ea id velit ea fugiat deserunt deserunt culpa tempor adipisicing ad.",
-        "author": "Cillum amet",
-        "dateTime": "1999-11-14T19:16:08.354Z",
-        "date": "11 14 1999",
-        "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "id": "627ac5fb61eaf13bd4f72da0",
+        "quote": "Informal communications don’t happen when working alone via electronic means.",
+        "author": "Peter Schwartz",
+        "dateTime": "",
+        "date": "SVP, Strategic Planning",
+        "source": "",
+        "sourceTitle": "",
         "size": "default"
       },
       {
-        "id": "625111e1d59460228f987d6b",
-        "quote": "Minim cillum ea quis cillum consequat enim nulla nostrud in ut elit minim fugiat.",
-        "author": "Proident excepteur",
-        "dateTime": "1998-07-15T17:51:57.108Z",
-        "date": "07 15 1998",
-        "source": "#",
-        "sourceTitle": "Culpa incididunt eu ipsum nostrud ex ut eu ut.",
+        "id": "627ac5fbee5612320aea3768",
+        "quote": "The past is gone.",
+        "author": "Brent Hyder",
+        "dateTime": "",
+        "date": "Chief People Officer",
+        "source": "",
+        "sourceTitle": "",
         "size": "default"
+      },
+      {
+        "id": "627ac5fbfbd0d327880f4e06",
+        "quote": "Finding ways to connect is the number one thing Salesforce employees asked for in our last employee survey. We need to bring back the spontaneity and joy that comes from being together in person, now.",
+        "author": "Rachel Posman",
+        "dateTime": "",
+        "date": "Senior Director, Design Operations",
+        "source": "https://www.salesforce.com/news/stories/why-salesforce-is-bringing-people-back-together-in-person-now/",
+        "sourceTitle": "Why Salesforce Is Bringing People Back Together In-Person, Now",
+        "size": "two"
+      },
+      {
+        "id": "627ac5fb483544fa0d55f5dc",
+        "quote": "I feel like we have 10% of the tools we need.",
+        "author": "Marc Benioff",
+        "dateTime": "",
+        "date": "Chair, Co-Ceo & Co-Founder",
+        "source": "",
+        "sourceTitle": "",
+        "size": "default"
+      },
+      {
+        "id": "627ac5fb5e57e99a0fc1fe88",
+        "quote": "In a world where we risk losing warmth during the massive, accelerated shift to digital, we must not over-invest in transactions over meaningful engagement and experience. One powerful opportunity is to embrace the sixth “love language” in marketing and experience design, which I call digital empathy. It’s this idea of understanding that digital itself has with it a different way of communicating and understanding how others want to communicate and how they want to be engaged.",
+        "author": "Brian Solis",
+        "dateTime": "",
+        "date": "Global Innovation Evangelist",
+        "source": "",
+        "sourceTitle": "",
+        "size": "three"
       }
     ]
   }

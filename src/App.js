@@ -10,9 +10,28 @@ import styled from "styled-components";
 const StyledWrapper = styled.div`
   width: 80vw;
   max-width: 1440px;
+  h1 {
+    font-size: ${(props) => props.theme.fontSize.h1};
+    color: ${(props) => props.theme.colors.red};
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: ${(props) => props.theme.fontSize.h3};
+    color: ${(props) => props.theme.colors.black};
+    font-weight: bold;
+    margin: 0;
+  }
 
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
     width: 90vw;
+    h1 {
+      font-size: ${(props) => props.theme.fontSize.mobile.h1};
+    }
+    h3 {
+      font-size: ${(props) => props.theme.fontSize.mobile.h3};
+    }
   }
 `;
 
@@ -23,6 +42,11 @@ function App() {
       <div className='App'>
         <Video />
         <StyledWrapper>
+          <h1>
+            The antidote to the loneliness epidemic:
+            <br /> Psychological safety at work
+          </h1>
+          <h3>Supporting Resources</h3>
           {data.map((section) => {
             return (
               <Section

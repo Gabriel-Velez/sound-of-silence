@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const StyledHeader = styled.div`
   margin: 20px 0;
-  h1 {
-    font-size: ${(props) => props.theme.fontSize.h1};
+  h2 {
+    font-size: ${(props) => props.theme.fontSize.h2};
     color: ${(props) => props.theme.colors.blue};
     margin: 0;
     font-weight: 400;
@@ -15,8 +15,8 @@ const StyledHeader = styled.div`
     margin: 0;
   }
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
-    h1 {
-      font-size: ${(props) => props.theme.fontSize.mobile.h1};
+    h2 {
+      font-size: ${(props) => props.theme.fontSize.mobile.h2};
     }
   }
 `;
@@ -25,7 +25,7 @@ export default function Header(props) {
   const { title, description } = props;
   return (
     <StyledHeader>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <p>{description}</p>
     </StyledHeader>
   );

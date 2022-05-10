@@ -9,13 +9,15 @@ export default {
     opaqueBlack: "rgba(0, 0, 0, 0.75)",
   },
   breakPoints: {
-    mobile: "max-width: 500px",
-    tablet: "max-width: 800px",
-    desktop: "max-width: 1200px",
-    ultraWide: "max-width: 1500px",
+    mobile: "max-width: 700px",
+    tablet: "max-width: 1000px",
+    desktop: "max-width: 1500px",
+    ultraWide: "max-width: 1700px",
   },
   fontSize: {
     h1: "4rem",
+    h2: "2.75rem",
+    h3: "1.5rem",
     p: ".9rem",
     article: "1.125rem",
     quoteHeadline: ".95rem",
@@ -26,6 +28,8 @@ export default {
     playButton: "6rem",
     mobile: {
       h1: "3rem",
+      h2: "2rem",
+      h3: "1rem",
       videoText: "1rem",
       quote: "1.5rem",
       article: "1rem",
