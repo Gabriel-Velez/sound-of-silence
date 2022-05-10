@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sound-of-silence/static/css/main.cd19cff4.css",
-    "main.js": "/sound-of-silence/static/js/main.9e7a8712.js",
+    "main.js": "/sound-of-silence/static/js/main.076d111d.js",
     "static/js/787.4236d40e.chunk.js": "/sound-of-silence/static/js/787.4236d40e.chunk.js",
     "static/media/opening.mp4": "/sound-of-silence/static/media/opening.db6b8b6a733822731eab.mp4",
     "static/media/quote.jpeg": "/sound-of-silence/static/media/quote.c69aea2ef836956fee20.jpeg",
     "static/media/review.svg": "/sound-of-silence/static/media/review.360572bfde00c588f10c0cf9ea0cbee2.svg",
     "index.html": "/sound-of-silence/index.html",
     "main.cd19cff4.css.map": "/sound-of-silence/static/css/main.cd19cff4.css.map",
-    "main.9e7a8712.js.map": "/sound-of-silence/static/js/main.9e7a8712.js.map",
+    "main.076d111d.js.map": "/sound-of-silence/static/js/main.076d111d.js.map",
     "787.4236d40e.chunk.js.map": "/sound-of-silence/static/js/787.4236d40e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd19cff4.css",
-    "static/js/main.9e7a8712.js"
+    "static/js/main.076d111d.js"
   ]
 }
