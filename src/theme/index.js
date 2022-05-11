@@ -22,7 +22,7 @@ export default {
     article: "1.125rem",
     quoteHeadline: ".95rem",
     author: "1rem",
-    date: "1rem",
+    title: "1rem",
     quote: "1.6rem",
     videoText: "1.5rem",
     playButton: "6rem",

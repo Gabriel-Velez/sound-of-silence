@@ -8,15 +8,16 @@ const StyledQuote = styled.div`
     text-transform: uppercase;
     display: inline;
   }
-  time {
+  .title {
     color: ${(props) => props.theme.colors.lightGrey};
-    font-size: ${(props) => props.theme.fontSize.date};
+    font-size: ${(props) => props.theme.fontSize.title};
     text-transform: uppercase;
     margin-left: 10px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
+    display: inline;
   }
-  time::before {
+  .title::before {
     content: "|";
     margin-right: 10px;
   }
@@ -46,14 +47,14 @@ const StyledQuote = styled.div`
 `;
 
 export default function Quotes(props) {
-  const { quote, author, date, dateTime, source, sourceTitle, size } = props;
+  const { quote, author, title, source, sourceTitle, size } = props;
 
   return (
     <StyledQuote className={size}>
       <figure>
         <figcaption>
           <div className='author'>{author}</div>
-          <time dateTime={dateTime}>{date}</time>
+          <div className='title'>{title}</div>
         </figcaption>
         <q>{quote}</q>
         <cite>

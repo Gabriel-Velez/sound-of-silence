@@ -153,7 +153,7 @@ export default function Video() {
         controls
         controlsList='nodownload noplaybackrate'
         disablePictureInPicture>
-        <source src={require("../../assets/opening.mp4")} type='video/mp4' />
+        <source src='https://www.pivotforhumanity.com/scenes.mp4' type='video/mp4' />
       </video>
     </StyledVideo>
   );

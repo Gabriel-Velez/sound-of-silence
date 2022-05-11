@@ -74,8 +74,7 @@ export default function Quotes(props) {
               key={quote.id}
               quote={quote.quote}
               author={quote.author}
-              date={quote.date}
-              dateTime={quote.dateTime}
+              title={quote.title}
               source={quote.source}
               sourceTitle={quote.sourceTitle}
               size={quote.size}></Quote>
