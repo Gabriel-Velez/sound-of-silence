@@ -13,15 +13,17 @@ const StyledWrapper = styled.div`
   h1 {
     font-size: ${(props) => props.theme.fontSize.h1};
     color: ${(props) => props.theme.colors.red};
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 70px;
     margin-bottom: 10px;
   }
   h3 {
+    font-family: "Poppins", sans-serif;
     font-size: ${(props) => props.theme.fontSize.h3};
-    color: ${(props) => props.theme.colors.black};
-    font-weight: bold;
+    color: ${(props) => props.theme.colors.grey};
+    font-weight: 200;
     margin: 0;
+    text-transform: uppercase;
   }
 
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
@@ -42,10 +44,7 @@ function App() {
       <div className='App'>
         <Video />
         <StyledWrapper>
-          <h1>
-            The antidote to the loneliness epidemic:
-            <br /> Psychological safety at work
-          </h1>
+          <h1>The antidote to the loneliness epidemic: Psychological safety at work</h1>
           <h3>Supporting Resources</h3>
           {data.map((section) => {
             return (

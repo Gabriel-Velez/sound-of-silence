@@ -156,7 +156,6 @@ export default function Video() {
           className='videoTextWrapper paused light'>
           <div>
             <FontAwesomeIcon icon={faCirclePlay} />
-            <span>Play in Full-Screen</span>
           </div>
         </div>
         <video

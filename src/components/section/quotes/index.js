@@ -16,6 +16,10 @@ const StyledQuotes = styled.div`
     margin-bottom: 40px;
   }
 
+  .quote-wrapper:empty {
+    border: none;
+  }
+
   &.quote-column .quote-wrapper {
     display: flex;
     flex-direction: column;
