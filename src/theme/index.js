@@ -6,6 +6,7 @@ export default {
     lightGrey: "#a1a1a1",
     black: "black",
     white: "white",
+    opaqueLightBlack: "rgba(0, 0, 0, 0.5)",
     opaqueBlack: "rgba(0, 0, 0, 0.75)",
   },
   breakPoints: {

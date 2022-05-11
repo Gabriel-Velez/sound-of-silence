@@ -1,18 +1,23 @@
 import React from "react";
 import styled from "styled-components";
-import initalImg from "../../assets/quote.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
+import { faCirclePlay, faCirclePause } from "@fortawesome/free-solid-svg-icons";
 
 const StyledVideo = styled.div`
   user-select: none;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.theme.colors.black};
   width: 100vw;
   z-index: 1;
   position: relative;
+  flex-direction: column;
+  display: none;
+
+  &.active {
+    display: flex;
+  }
+
   img {
     width: 100vw;
     max-height: 100vh;
@@ -26,15 +31,18 @@ const StyledVideo = styled.div`
   .videoTextWrapper {
     color: ${(props) => props.theme.colors.white};
     opacity: 0;
-    transition: opacity 0.5s, transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s, visibility 0.5s;
     width: 100%;
     height: 100%;
     display: grid;
     place-items: center;
-    background-color: ${(props) => props.theme.colors.opaqueBlack};
     margin: 0;
     position: absolute;
-
+    background-color: ${(props) => props.theme.colors.opaqueBlack};
+    visibility: hidden;
+    &.light {
+      background-color: ${(props) => props.theme.colors.opaqueLightBlack};
+    }
     > div {
       top: 50%;
       left: 50%;
@@ -67,15 +75,6 @@ const StyledVideo = styled.div`
         transform: translate(-50%, -50%);
       }
     }
-    &.pausedInital {
-      background-image: url(${initalImg});
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      span {
-        display: none;
-      }
-    }
   }
 
   .onlyTimeline::-webkit-media-controls-play-button,
@@ -106,12 +105,9 @@ const StyledVideo = styled.div`
 export default function Video() {
   const displayText = (inVid) => {
     const vid = document.querySelector("#splashVideo");
-    const vidText = document.querySelector(".videoTextWrapper");
+    const vidText = document.querySelector("#videoTextWrapper");
     if (vid.paused) {
       vidText.classList.remove("paused");
-      setTimeout(function () {
-        vidText.classList.remove("pausedInital");
-      }, 500);
       vidText.classList.add("playing");
       if (inVid === true) vid.play();
     } else {
@@ -121,40 +117,79 @@ export default function Video() {
     }
   };
   const displayTextEnded = () => {
-    const vidText = document.querySelector(".videoTextWrapper");
+    const vidText = document.querySelector("#videoTextWrapper");
     vidText.classList.add("paused");
     vidText.classList.remove("playing");
   };
 
+  const displayVideo = () => {
+    const styledLoop = document.querySelector("#styledLoop");
+    const styledMain = document.querySelector("#styledMain");
+    styledLoop.classList.remove("active");
+    styledMain.classList.add("active");
+
+    const vid = document.querySelector("#splashVideo");
+    const vidText = document.querySelector("#videoTextWrapper");
+    vidText.classList.remove("paused");
+    vid.play();
+    vid.requestFullscreen();
+  };
+
   return (
-    <StyledVideo>
-      <div
-        onClick={() => displayText(true)}
-        onTouchStart={() => displayText(true)}
-        className='videoTextWrapper paused pausedInital'>
-        <div>
-          <FontAwesomeIcon icon={faCirclePlay} />
-          <span>
-            Lorem Ipsum
-            <br />
-            <a target='_blank' href='https://www.google.com'>
-              link
-            </a>
-          </span>
+    <>
+      <StyledVideo className='active' id='styledLoop'>
+        <div
+          onClick={() => displayVideo()}
+          onTouchStart={() => displayVideo()}
+          className='videoTextWrapper paused light'>
+          <div>
+            <FontAwesomeIcon icon={faCirclePlay} />
+            <span>Play in Full-Screen</span>
+          </div>
         </div>
-      </div>
-      <video
-        onClick={() => displayText(false)}
-        onTouchStart={() => displayText(false)}
-        onEnded={displayTextEnded}
-        className='onlyTimeline'
-        id='splashVideo'
-        width='100%'
-        controls
-        controlsList='nodownload noplaybackrate'
-        disablePictureInPicture>
-        <source src='https://www.pivotforhumanity.com/scenes.mp4' type='video/mp4' />
-      </video>
-    </StyledVideo>
+        <video
+          onClick={() => displayVideo()}
+          onTouchStart={() => displayVideo()}
+          className='loopingVid'
+          id='loopingVideo'
+          width='100%'
+          controls={false}
+          autoPlay
+          muted
+          loop>
+          <source src={require("../../assets/loop.mp4")} type='video/mp4' />
+        </video>
+      </StyledVideo>
+      <StyledVideo id='styledMain'>
+        <div
+          onClick={() => displayText(true)}
+          onTouchStart={() => displayText(true)}
+          id='videoTextWrapper'
+          className='videoTextWrapper paused'>
+          <div>
+            <FontAwesomeIcon icon={faCirclePause} />
+            <span>
+              Lorem Ipsum
+              <br />
+              <a target='_blank' href='https://www.google.com'>
+                link
+              </a>
+            </span>
+          </div>
+        </div>
+        <video
+          onClick={() => displayText(false)}
+          onTouchStart={() => displayText(false)}
+          onEnded={displayTextEnded}
+          className='mainVid onlyTimeline'
+          id='splashVideo'
+          width='100%'
+          controls
+          controlsList='nodownload noplaybackrate'
+          disablePictureInPicture>
+          <source src='https://www.pivotforhumanity.com/scenes.mp4' type='video/mp4' />
+        </video>
+      </StyledVideo>
+    </>
   );
 }
