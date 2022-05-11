@@ -122,6 +122,18 @@ export default function Video() {
     vidText.classList.remove("playing");
   };
 
+  const onPlay = () => {
+    const vidText = document.querySelector("#videoTextWrapper");
+    vidText.classList.remove("paused");
+    vidText.classList.add("playing");
+  };
+
+  const onPause = () => {
+    const vidText = document.querySelector("#videoTextWrapper");
+    vidText.classList.add("paused");
+    vidText.classList.remove("playing");
+  };
+
   const displayVideo = () => {
     const styledLoop = document.querySelector("#styledLoop");
     const styledMain = document.querySelector("#styledMain");
@@ -178,8 +190,8 @@ export default function Video() {
           </div>
         </div>
         <video
-          onClick={() => displayText(false)}
-          onTouchStart={() => displayText(false)}
+          onPlay={onPlay}
+          onPause={onPause}
           onEnded={displayTextEnded}
           className='mainVid onlyTimeline'
           id='splashVideo'
