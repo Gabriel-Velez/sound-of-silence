@@ -28,8 +28,8 @@ export default {
     videoText: "1.5rem",
     playButton: "6rem",
     mobile: {
-      h1: "2.7rem",
-      h2: "1.7rem",
+      h1: "2.5rem",
+      h2: "1.5rem",
       h3: "1rem",
       videoText: "1rem",
       quote: "1rem",
