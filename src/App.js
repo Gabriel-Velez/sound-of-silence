@@ -27,7 +27,6 @@ const StyledWrapper = styled.div`
   }
 
   .logosLink {
-    font-size: 2.75rem;
     font-size: ${(props) => props.theme.fontSize.h3};
     color: #4182c2;
     font-weight: 400;
@@ -40,6 +39,9 @@ const StyledWrapper = styled.div`
     width: 90vw;
     .message {
       font-size: ${(props) => props.theme.fontSize.mobile.h2};
+    }
+    .logosLink {
+      font-size: ${(props) => props.theme.fontSize.mobile.h3};
     }
   }
 `;
