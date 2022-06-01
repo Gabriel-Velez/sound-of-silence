@@ -6,11 +6,12 @@ import { faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg
 import { faPodcast } from "@fortawesome/free-solid-svg-icons";
 
 const StyledFooter = styled.footer`
-  border-top: double black;
   display: flex;
-  padding: 40px 0;
+  padding: 40px 100px;
   flex-grow: 1;
   justify-content: space-between;
+  background-color: ${(props) => props.theme.colors.footerBackground};
+  color: ${(props) => props.theme.colors.white};
   .end {
     display: flex;
     align-items: center;
@@ -36,6 +37,7 @@ const StyledFooter = styled.footer`
   @media only screen and (${(props) => props.theme.breakPoints.tablet}) {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
     .end {
       .sm {
@@ -50,15 +52,11 @@ export default function Footer() {
     <StyledFooter>
       <div>
         <p>
-          © 2022 zanie. - All Rights Reserved.
-          <br />
-          Reserved | <a href='https://zanie.app/policies'>Privacy Policy</a>
+          © 2022 zanie. - All Rights Reserved.{" "}
+          <a href='https://zanie.app/policies'>Privacy Policy</a>
         </p>
       </div>
       <div className='end'>
-        <a href='https://www.producthunt.com/posts/zanie?utm_source=badge-review&utm_medium=badge&utm_souce=badge-zanie#discussion-body'>
-          <img src={img} alt='Product Hut' />
-        </a>
         <div className='sm'>
           <a href='https://twitter.com/zanie_app'>
             <FontAwesomeIcon icon={faTwitter} />

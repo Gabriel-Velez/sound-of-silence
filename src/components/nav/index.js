@@ -26,7 +26,7 @@ const StyledNav = styled.nav`
     position: fixed;
     background-color: ${(props) => props.theme.colors.red};
     width: 100%;
-    max-width: 250px;
+    max-width: 270px;
     top: 0;
     z-index: 100;
     right: 0;
@@ -148,26 +148,32 @@ export default function Nav() {
           <FontAwesomeIcon icon={faXmark} />
         </button>
         <div className='navLink'>
-          <a href='#'>Video</a>
-        </div>
-        <div className='navLink'>
-          <a href='#'>Research</a>
-        </div>
-        <div className='navLink'>
-          <a href='#'>Sales Material</a>
-        </div>
-        <div className='navLink'>
-          <a href='#'>More About Zanie</a>
-        </div>
-        <div className='sm'>
-          <a href='#'>
-            <FontAwesomeIcon icon={faEnvelope} />
+          <a onClick={closeNav} href='#splashVideo'>
+            Watch our video
           </a>
-          <a href='#'>
-            <FontAwesomeIcon icon={faHashtag} />
+        </div>
+        <div className='navLink'>
+          <a
+            onClick={closeNav}
+            href='https://betwixtus.slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>
+            Install Zanie on slack
           </a>
-          <a href='#'>
-            <FontAwesomeIcon icon={faHouse} />
+        </div>
+        <div className='navLink'>
+          <a
+            onClick={closeNav}
+            href='https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing'>
+            Download our sales material
+          </a>
+        </div>
+        <div className='navLink'>
+          <a onClick={closeNav} href='https://zanie.app'>
+            More about Zanie
+          </a>
+        </div>
+        <div className='navLink'>
+          <a onClick={closeNav} href='mailto:thegang@zanie.app'>
+            Get in touch
           </a>
         </div>
       </div>

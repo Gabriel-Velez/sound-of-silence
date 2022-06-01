@@ -122,18 +122,6 @@ export default function Video() {
     vidText.classList.remove("playing");
   };
 
-  const onPlay = () => {
-    const vidText = document.querySelector("#videoTextWrapper");
-    vidText.classList.remove("paused");
-    vidText.classList.add("playing");
-  };
-
-  const onPause = () => {
-    const vidText = document.querySelector("#videoTextWrapper");
-    vidText.classList.add("paused");
-    vidText.classList.remove("playing");
-  };
-
   const displayVideo = () => {
     const styledLoop = document.querySelector("#styledLoop");
     const styledMain = document.querySelector("#styledMain");
@@ -141,8 +129,6 @@ export default function Video() {
     styledMain.classList.add("active");
 
     const vid = document.querySelector("#splashVideo");
-    const vidText = document.querySelector("#videoTextWrapper");
-    vidText.classList.remove("paused");
     vid.play();
     vid.requestFullscreen();
   };
@@ -172,27 +158,9 @@ export default function Video() {
         </video>
       </StyledVideo>
       <StyledVideo id='styledMain'>
-        <div
-          onClick={() => displayText(true)}
-          onTouchStart={() => displayText(true)}
-          id='videoTextWrapper'
-          className='videoTextWrapper paused'>
-          <div>
-            <FontAwesomeIcon icon={faCirclePause} />
-            <span>
-              Lorem Ipsum
-              <br />
-              <a target='_blank' href='https://www.google.com'>
-                link
-              </a>
-            </span>
-          </div>
-        </div>
         <video
-          onPlay={onPlay}
-          onPause={onPause}
           onEnded={displayTextEnded}
-          className='mainVid onlyTimeline'
+          className='mainVid'
           id='splashVideo'
           width='100%'
           controls

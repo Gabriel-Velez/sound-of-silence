@@ -4,6 +4,7 @@ export default {
     red: "#ff2a34",
     grey: "#999999",
     lightGrey: "#a1a1a1",
+    footerBackground: "#3C3B49",
     black: "black",
     white: "white",
     opaqueLightBlack: "rgba(0, 0, 0, 0.5)",
