@@ -49,10 +49,10 @@
     "quotesType": "grid",
     "quotes": [
       {
-        "id": "6251117d699d3bd5edda1601",
-        "quote": "Our employees have been reporting mental health issues at a higher rate than we've had any other year…I think the best companies will look to intentionally develop culture in this all digital work, anywhere world.",
-        "author": "Bret Taylor",
-        "title": "Co-Ceo",
+        "id": "627ac5fb299cce5bafc362f0",
+        "quote": "Is trust our highest value? We have to ask ourselves personally, but organizationally as well. Then we have to operationalize that value.",
+        "author": "Marc Benioff",
+        "title": "Chair, Co-Ceo & Co-Founder",
         "source": "",
         "sourceTitle": "",
         "size": "default"
@@ -64,16 +64,16 @@
         "title": "Co-Founder & CTO",
         "source": "https://www.salesforce.com/news/stories/trust-in-the-time-of-ai-why-salesforce-invests-in-ethical-guardrails/",
         "sourceTitle": "Trust in the Time of AI: Why Salesforce Invests in Ethical Guardrails",
-        "size": "default"
+        "size": "two"
       },
       {
-        "id": "627ac5fb299cce5bafc362f0",
-        "quote": "Is trust our highest value? We have to ask ourselves personally, but organizationally as well. Then we have to operationalize that value.",
-        "author": "Marc Benioff",
-        "title": "Chair, Co-Ceo & Co-Founder",
+        "id": "6251117d699d3bd5edda1601",
+        "quote": "Our employees have been reporting mental health issues at a higher rate than we've had any other year…I think the best companies will look to intentionally develop culture in this all digital work, anywhere world.",
+        "author": "Bret Taylor",
+        "title": "Co-Ceo",
         "source": "",
         "sourceTitle": "",
-        "size": "default"
+        "size": "three"
       }
     ]
   },
