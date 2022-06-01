@@ -6,13 +6,15 @@ import { faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg
 import { faPodcast } from "@fortawesome/free-solid-svg-icons";
 
 const StyledFooter = styled.footer`
+  width: 100%;
   font-family: "Poppins", sans-serif;
   display: flex;
   padding: 40px 100px;
   flex-grow: 1;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: ${(props) => props.theme.colors.footerBackground};
   color: ${(props) => props.theme.colors.white};
+  flex-wrap: wrap;
   .end {
     display: flex;
     align-items: center;
@@ -32,17 +34,6 @@ const StyledFooter = styled.footer`
       > * {
         font-size: 1.75rem;
         margin: 0 10px;
-      }
-    }
-  }
-  @media only screen and (${(props) => props.theme.breakPoints.tablet}) {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-
-    .end {
-      .sm {
-        flex-wrap: wrap;
       }
     }
   }

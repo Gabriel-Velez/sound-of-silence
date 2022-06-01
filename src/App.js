@@ -78,8 +78,8 @@ function App() {
                 articles={section.articles}></Section>
             );
           })}
-          <Footer />
         </StyledWrapper>
+        <Footer />
       </div>
     </>
   );
