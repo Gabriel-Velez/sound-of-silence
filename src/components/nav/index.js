@@ -148,7 +148,7 @@ export default function Nav() {
           <FontAwesomeIcon icon={faXmark} />
         </button>
         <div className='navLink'>
-          <a onClick={closeNav} href='#splashVideo'>
+          <a onClick={closeNav} href='#top'>
             Watch our video
           </a>
         </div>

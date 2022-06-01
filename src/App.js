@@ -51,6 +51,7 @@ function App() {
     <>
       <Nav />
       <div className='App'>
+        <div id='top'></div>
         <Video />
         <StyledWrapper>
           <img
