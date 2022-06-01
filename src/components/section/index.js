@@ -8,6 +8,10 @@ const StyledSection = styled.section`
   overflow: auto;
   overflow-x: hidden;
   margin: 75px 0;
+  &:first-of-type {
+    margin-top: 20px;
+  }
+
   & > .article:nth-child(even) {
     color: ${(props) => props.theme.colors.grey};
   }

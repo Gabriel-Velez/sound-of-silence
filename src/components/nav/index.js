@@ -153,6 +153,11 @@ export default function Nav() {
           </a>
         </div>
         <div className='navLink'>
+          <a onClick={closeNav} href='#supporting'>
+            Supporting resources
+          </a>
+        </div>
+        <div className='navLink'>
           <a
             onClick={closeNav}
             href='https://betwixtus.slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>

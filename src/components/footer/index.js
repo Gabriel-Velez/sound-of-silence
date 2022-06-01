@@ -6,6 +6,7 @@ import { faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg
 import { faPodcast } from "@fortawesome/free-solid-svg-icons";
 
 const StyledFooter = styled.footer`
+  font-family: "Poppins", sans-serif;
   display: flex;
   padding: 40px 100px;
   flex-grow: 1;

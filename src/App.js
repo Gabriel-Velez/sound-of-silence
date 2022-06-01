@@ -11,13 +11,14 @@ const StyledWrapper = styled.div`
   width: 80vw;
   max-width: 1440px;
   .message {
-    font-size: ${(props) => props.theme.fontSize.h1};
-    color: ${(props) => props.theme.colors.grey};
+    font-size: ${(props) => props.theme.fontSize.h3};
+    color: ${(props) => props.theme.colors.black};
     font-weight: 200;
     margin: 0;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     padding-top: 70px;
+    font-weight: 700;
   }
 
   .logos {
@@ -26,17 +27,19 @@ const StyledWrapper = styled.div`
   }
 
   .logosLink {
-    color: ${(props) => props.theme.colors.lightGrey};
-    font-size: ${(props) => props.theme.fontSize.p};
-    display: block;
-    font-style: normal;
-    margin-top: 20px;
+    font-size: 2.75rem;
+    font-size: ${(props) => props.theme.fontSize.h3};
+    color: #4182c2;
+    font-weight: 400;
+    text-align: center;
+
+    width: 100%;
   }
 
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
     width: 90vw;
     .message {
-      font-size: ${(props) => props.theme.fontSize.mobile.h1};
+      font-size: ${(props) => props.theme.fontSize.mobile.h2};
     }
   }
 `;
@@ -53,10 +56,14 @@ function App() {
             src={require("./assets/logos.png")}
             alt='Salesforce + Slack + Zanie'
           />
-          <a className='logosLink' href='mailto:thegang@zanie.app'>
-            Click here to learn how we can break the sound of silence{" "}
-          </a>
-          <h1 className='message'>Supporting Resources</h1>
+          <div className='logosLink'>
+            <a href='mailto:thegang@zanie.app'>
+              Click here to learn how we can break the sound of silence{" "}
+            </a>
+          </div>
+          <h1 id='supporting' className='message'>
+            Supporting Resources
+          </h1>
           {data.map((section) => {
             return (
               <Section
