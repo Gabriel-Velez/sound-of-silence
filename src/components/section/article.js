@@ -8,13 +8,22 @@ const StyledArticle = styled.div`
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
     font-size: ${(props) => props.theme.fontSize.mobile.article};
   }
+  .source {
+    text-transform: uppercase;
+  }
+  .title {
+    color: ${(props) => props.theme.colors.grey};
+  }
 `;
 
 export default function Article(props) {
-  const { link, title } = props;
+  const { link, title, source } = props;
   return (
     <StyledArticle className='article'>
-      <a href={link}>{title}</a>
+      <div className='source'>{source}</div>
+      <a href={link}>
+        <div className='title'>{title}</div>
+      </a>
     </StyledArticle>
   );
 }

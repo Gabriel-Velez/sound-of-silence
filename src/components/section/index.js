@@ -12,9 +12,6 @@ const StyledSection = styled.section`
     margin-top: 20px;
   }
 
-  & > .article:nth-child(even) {
-    color: ${(props) => props.theme.colors.grey};
-  }
   h4 {
     text-transform: uppercase;
     font-size: ${(props) => props.theme.fontSize.quoteHeadline};
@@ -33,7 +30,13 @@ export default function Section(props) {
       <Header title={title} description={description}></Header>
       <Quotes quotes={quotes} quotesType={quotesType} quotesSub={quotesSub}></Quotes>
       {articles.map((article) => {
-        return <Article key={article.id} link={article.link} title={article.title}></Article>;
+        return (
+          <Article
+            key={article.id}
+            link={article.link}
+            title={article.title}
+            source={article.source}></Article>
+        );
       })}
     </StyledSection>
   );

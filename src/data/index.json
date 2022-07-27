@@ -6,42 +6,50 @@
     "articles": [
       {
         "id": "6251117d3ab90eb3dc7ac872",
-        "title": "The New Yorker: How Everyone Got So Lonely",
+        "source": "The New Yorker:  ",
+        "title": "How Everyone Got So Lonely",
         "link": "https://www.newyorker.com/magazine/2022/04/11/how-everyone-got-so-lonely-laura-kipnis-noreena-hertz"
       },
       {
         "id": "6251117d827fba67dd91c1d9",
-        "title": "NPR:  Most Americans Are Lonely, And Our Workplace Culture May Not Be Helping",
+        "source": "NPR:  ",
+        "title": "Most Americans Are Lonely, And Our Workplace Culture May Not Be Helping",
         "link": "https://www.npr.org/sections/health-shots/2020/01/23/798676465/most-americans-are-lonely-and-our-workplace-culture-may-not-be-helping"
       },
       {
         "id": "6251117d627afe85d3731900",
-        "title": "The New York Times:  Across the World, Covid Anxiety and Depression Take Hold",
+        "source": "The New York Times:  ",
+        "title": "Across the World, Covid Anxiety and Depression Take Hold",
         "link": "https://www.nytimes.com/2021/12/13/world/europe/covid-anxiety-depression-omicron.html"
       },
       {
         "id": "6251117d1d1502fbee4c94ba",
-        "title": "The Atlantic:  The Coronavirus Could Cause a Social Recession",
+        "source": "The Atlantic:  ",
+        "title": "The Coronavirus Could Cause a Social Recession",
         "link": "https://www.theatlantic.com/ideas/archive/2020/03/america-faces-social-recession/608548/"
       },
       {
         "id": "6251117da8abf31664545854",
-        "title": "Harvard Business Review:  Burnout at Work Isn't Just About Exhaustion. It's Also About Loneliness",
+        "source": "Harvard Business Review:  ",
+        "title": "Burnout at Work Isn't Just About Exhaustion. It's Also About Loneliness",
         "link": "https://hbr.org/2017/06/burnout-at-work-isnt-just-about-exhaustion-its-also-about-loneliness"
       },
       {
         "id": "6251117d9b43aa8b854f11cd",
-        "title": "Cigna:  Loneliness and the Workplace - Annual Report",
+        "source": "Cigna:  ",
+        "title": "Loneliness and the Workplace - Annual Report",
         "link": "https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-report.pdf"
       },
       {
         "id": "6251117de3854fc8c712f505",
-        "title": "Harvard Business Review:  Employees Are Lonelier Than Ever. Here's How Employers Can Help.",
+        "source": "Harvard Business Review:  ",
+        "title": "Employees Are Lonelier Than Ever. Here's How Employers Can Help.",
         "link": "https://hbr.org/2021/06/employees-are-lonelier-than-ever-heres-how-employers-can-help"
       },
       {
         "id": "6251117d8148826952ac5ba2",
-        "title": "FM Magazine:  5 tips for addressing loneliness in the workplace ",
+        "source": "FM Magazine:  ",
+        "title": "5 tips for addressing loneliness in the workplace ",
         "link": "https://www.fm-magazine.com/news/2021/apr/how-to-address-loneliness-at-work.html"
       }
     ],
@@ -64,7 +72,7 @@
         "title": "Co-Founder & CTO",
         "source": "https://www.salesforce.com/news/stories/trust-in-the-time-of-ai-why-salesforce-invests-in-ethical-guardrails/",
         "sourceTitle": "Trust in the Time of AI: Why Salesforce Invests in Ethical Guardrails",
-        "size": "two"
+        "size": "default"
       },
       {
         "id": "6251117d699d3bd5edda1601",
@@ -73,7 +81,7 @@
         "title": "Co-Ceo",
         "source": "",
         "sourceTitle": "",
-        "size": "three"
+        "size": "default"
       }
     ]
   },
@@ -84,77 +92,92 @@
     "articles": [
       {
         "id": "625111e16a40a41f34dc7d32",
-        "title": "Pew:  Millennials are largest generation in the US labor force | Pew Research Center",
+        "source": "Pew:  ",
+        "title": "Millennials are largest generation in the US labor force | Pew Research Center",
         "link": "https://www.pewresearch.org/fact-tank/2018/04/11/millennials-largest-generation-us-labor-force/"
       },
       {
         "id": "625111e19bee654335b6127f",
-        "title": "Deloitte:  The Deloitte Global 2021 Millennial and Gen Z Survey",
+        "source": "Deloitte:  ",
+        "title": "The Deloitte Global 2021 Millennial and Gen Z Survey",
         "link": "https://www2.deloitte.com/global/en/pages/about-deloitte/articles/millennialsurvey.html"
       },
       {
         "id": "625111e11bd9af1984005bb2",
-        "title": "The New York Times: ‘It’s Life or Death’: The Mental Health Crisis Among U.S. Teens",
+        "source": "The New York Times:  ",
+        "title": "‘It’s Life or Death’: The Mental Health Crisis Among U.S. Teens",
         "link": "https://www.nytimes.com/2022/04/23/health/mental-health-crisis-teens.html"
       },
       {
         "id": "625111e13404a26720c2c989",
-        "title": "The New York Times: Despair Deepens for Young People as Pandemic Drags On - The New York Times",
+        "source": "The New York Times:  ",
+        "title": "Despair Deepens for Young People as Pandemic Drags On - The New York Times",
         "link": "https://www.nytimes.com/2021/02/14/world/europe/youth-mental-health-covid.html"
       },
       {
         "id": "627ac5fb00c74bf66a92d0bf",
-        "title": "The Atlantic: Why American Teens Are So Sad",
+        "source": "The Atlantic: ",
+        "title": "Why American Teens Are So Sad",
         "link": "https://www.theatlantic.com/newsletters/archive/2022/04/american-teens-sadness-depression-anxiety/629524/"
       },
       {
         "id": "627ac5fbd6f8df1465855964",
-        "title": "Seattle Times:  Attention, HR: Millennials crave workplace bonding, friendship",
+        "source": "Seattle Times:  ",
+        "title": "Attention, HR: Millennials crave workplace bonding, friendship",
         "link": "https://www.seattletimes.com/explore/careers/attention-hr-millennials-crave-workplace-bonding-friendship/"
       },
       {
         "id": "627ac5fba0f5c6e727c4a256",
-        "title": "What to Become–Statistics Collection:  25 Stats About Millennials in the Workplace [2021]",
+        "source": "What to Become–Statistics Collection:  ",
+        "title": "25 Stats About Millennials in the Workplace [2021]",
         "link": "https://whattobecome.com/blog/millennials-in-the-workplace/"
       },
       {
         "id": "627ac5fb813e0101c4e013b9",
-        "title": "TeamStage:  Millennials in the Workplace Statistics: Generational Disparities in 2022 ",
+        "source": "TeamStage:  ",
+        "title": "Millennials in the Workplace Statistics: Generational Disparities in 2022 ",
         "link": "https://teamstage.io/millennials-in-the-workplace-statistics/"
       },
       {
         "id": "627ac5fb8ad07431b841db1f",
-        "title": "CNBC:  Half of millennials and 75% of Gen-Zers have left jobs for mental health reasons",
+        "source": "CNBC:  ",
+        "title": "Half of millennials and 75% of Gen-Zers have left jobs for mental health reasons",
         "link": "https://www.cnbc.com/2019/10/08/millennials-gen-z-have-quit-jobs-due-to-mental-health-issues-survey.html"
       },
       {
         "id": "627ac5fb817b34436826e266",
-        "title": "TLNT:  Friends at Work: The Younger You Are, the More Important They Become",
+        "source": "TLNT:  ",
+        "title": "Friends at Work: The Younger You Are, the More Important They Become",
         "link": "https://www.tlnt.com/friends-at-work-the-younger-you-are-the-more-important-they-become/"
       },
       {
         "id": "627ac5fb0c7bd000a2e49792",
-        "title": "Firstup:  Key statistics about Millennials in the workplace",
+        "source": "Firstup:  ",
+        "title": "Key statistics about Millennials in the workplace",
         "link": "https://firstup.io/blog/key-statistics-millennials-in-the-workplace/"
       },
       {
         "id": "627ac5fb5f5e2aa0a15213bb",
-        "title": "Metro UK:  Millennials Struggle to Make Friends at Work – And it’s Damaging Our Mental Health",
+        "source": "Metro UK:  ",
+        "title": "Millennials Struggle to Make Friends at Work – And it’s Damaging Our Mental Health",
         "link": "https://metro.co.uk/2019/05/20/millennials-struggle-make-friends-work-damaging-mental-health-9609038/"
       },
       {
         "id": "627ac5fbc8949b239a05e3b1",
-        "title": "SurveyMonkey:  Millennials vs. Gen-X in the workplace: differences and similarities",
+        "source": "SurveyMonkey:  ",
+        "title": "Millennials vs. Gen-X in the workplace: differences and similarities",
         "link": "https://www.surveymonkey.com/mp/millennials-vs-gen-x-differences-and-similarities-in-the-workplace/"
       },
       {
         "id": "627ac5fb1b06ee5e920bfe3b",
-        "title": "Great Place to Work:  The Companies Millennials Want to Work For in 2021 and Why",
+        "source": "Great Place to Work:  ",
+        "title": "The Companies Millennials Want to Work For in 2021 and Why",
         "link": "https://www.greatplacetowork.com/press-releases/2021-fortune-best-workplaces-for-millennials-press-release"
       },
       {
         "id": "627ac5fb1391b2103e5faeef",
-        "title": "Glenn Leader:  Nearly 1 in 4 Gen Z Employees are Lonely at Work",
+        "source": "Glenn Leader:  ",
+        "title": "Nearly 1 in 4 Gen Z Employees are Lonely at Work",
         "link": "https://glennleader.com/latest-posts/nearly-1-in-4-gen-z-employees-are-lonely-at-work/"
       }
     ],
@@ -197,52 +220,62 @@
     "articles": [
       {
         "id": "627ac5fb3ea5dd8e4c8212de",
-        "title": "McKinsey:  Psychological-safety leadership in a time of flux",
+        "source": "McKinsey:  ",
+        "title": "Psychological-safety leadership in a time of flux",
         "link": "https://www.mckinsey.com/featured-insights/leadership/psychological-safety-emotional-intelligence-and-leadership-in-a-time-of-flux"
       },
       {
         "id": "627ac5fb71073f2aae194df5",
-        "title": "MIT Sloan Management Review: The Loneliness of the Hybrid Worker",
+        "source": "MIT Sloan Management Review: ",
+        "title": "The Loneliness of the Hybrid Worker",
         "link": "https://sloanreview.mit.edu/article/the-loneliness-of-the-hybrid-worker/"
       },
       {
         "id": "627ac5fbc5049cc8d5e2c998",
-        "title": "Boston University: Work Burnout Signs: What to Look for and What to Do about It ",
+        "source": "Boston University: ",
+        "title": "Work Burnout Signs: What to Look for and What to Do about It ",
         "link": "https://www.bu.edu/articles/2022/work-burnout-signs-symptoms/"
       },
       {
         "id": "627ac5fbba3d89294875365d",
-        "title": "Buffer:  2022 State of Remote Work",
+        "source": "Buffer:  ",
+        "title": "2022 State of Remote Work",
         "link": "https://buffer.com/state-of-remote-work/2022"
       },
       {
         "id": "627ac5fb9ae4eb3b148f7690",
-        "title": "NPR:  Working from home doesn't have to suck. Here's how 'Out Of Office' can be better",
+        "source": "NPR:  ",
+        "title": "Working from home doesn't have to suck. Here's how 'Out Of Office' can be better",
         "link": "https://www.npr.org/2021/11/29/1059829390/working-from-home-doesnt-have-to-suck-heres-how-out-of-office-can-be-better"
       },
       {
         "id": "627ac5fbe49492bd8d8c8cc6",
-        "title": "NBC News: When it comes to remote work, be careful what you wish for",
+        "source": "NBC News: ",
+        "title": "When it comes to remote work, be careful what you wish for",
         "link": "https://www.nbcnews.com/think/opinion/work-home-flexible-hours-office-policies-can-seem-great-are-downsides-rcna26423"
       },
       {
         "id": "627ac5fbe55bfa6ce56ef8f4",
-        "title": "The Washington Post:  Requiring workers to return to the office is a ‘doomed approach’",
+        "source": "The Washington Post:  ",
+        "title": "Requiring workers to return to the office is a ‘doomed approach’",
         "link": "https://www.msn.com/en-us/news/technology/future-of-work-requiring-workers-to-return-to-the-office-is-a-e2-80-98doomed-approach-e2-80-99/ar-AARLBgi"
       },
       {
         "id": "627ac5fb92437c0d13548813",
-        "title": "Technology Signals:  What's the Formula Behind the World's Best Workplace?",
+        "source": "Technology Signals:  ",
+        "title": "What's the Formula Behind the World's Best Workplace?",
         "link": "https://technology-signals.com/whats-the-formula-behind-the-worlds-best-workplace/"
       },
       {
         "id": "627ac5fbaae953b2b18b94c2",
-        "title": "Gartner:  Maintain Diversity and Inclusion During Pandemics",
+        "source": "Gartner: ",
+        "title": "Maintain Diversity and Inclusion During Pandemics",
         "link": "https://www.gartner.com/smarterwithgartner/maintain-diversity-and-inclusion-during-pandemics"
       },
       {
         "id": "627ac5fb6cdc85d12d2a2c73",
-        "title": "Salesforce:  New Survey Data Shows Possible Scenarios for the Future of Offices, Commuting, and Cities - Salesforce News",
+        "source": "Salesforce:  ",
+        "title": "New Survey Data Shows Possible Scenarios for the Future of Offices, Commuting, and Cities - Salesforce News",
         "link": "https://www.salesforce.com/news/stories/new-survey-data-shows-possible-scenarios-for-the-future-of-offices-commuting-and-cities/"
       }
     ],
