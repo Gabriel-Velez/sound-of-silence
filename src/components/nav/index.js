@@ -24,7 +24,7 @@ const StyledNav = styled.nav`
   }
   .modal {
     position: fixed;
-    background-color: ${(props) => props.theme.colors.red};
+    background-color: ${(props) => props.theme.colors.lightGrey};
     width: 100%;
     max-width: 270px;
     top: 0;
@@ -42,7 +42,7 @@ const StyledNav = styled.nav`
       border: none;
       float: right;
       svg {
-        color: ${(props) => props.theme.colors.white};
+        color: ${(props) => props.theme.colors.black};
         padding: 20px;
         &:hover {
           color: ${(props) => props.theme.colors.black};
@@ -50,7 +50,7 @@ const StyledNav = styled.nav`
       }
     }
     .navLink {
-      color: ${(props) => props.theme.colors.white};
+      color: ${(props) => props.theme.colors.black};
       font-family: "Poppins", sans-serif;
       font-weight: 500;
       padding: 20px 40px;
@@ -65,7 +65,7 @@ const StyledNav = styled.nav`
         margin-top: 50px;
       }
       &:last-of-type {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
       }
     }
     .sm {
@@ -97,6 +97,10 @@ const StyledNav = styled.nav`
       opacity: 1;
       visibility: visible;
     }
+  }
+  .zanieLogo {
+    width: 80%;
+    margin: 0 10%;
   }
 
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
@@ -160,14 +164,7 @@ export default function Nav() {
         <div className='navLink'>
           <a
             onClick={closeNav}
-            href='https://betwixtus.slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>
-            Install Zanie on slack
-          </a>
-        </div>
-        <div className='navLink'>
-          <a
-            onClick={closeNav}
-            href='https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing'>
+            href=' https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing'>
             Download our sales material
           </a>
         </div>
@@ -177,10 +174,21 @@ export default function Nav() {
           </a>
         </div>
         <div className='navLink'>
-          <a onClick={closeNav} href='mailto:thegang@zanie.app'>
-            Get in touch
+          <a onClick={closeNav} href='https://slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>
+            Install zanie on Slack
           </a>
         </div>
+        <div className='navLink'>
+          <a onClick={closeNav} href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
+            Schedule a meeting
+          </a>
+        </div>
+        <div className='navLink'>
+          <a onClick={closeNav} href='mailto:jumana@zanie.app'>
+            Email us
+          </a>
+        </div>
+        <img className='zanieLogo' src={require("../../assets/zanieLogo.png")} alt='Zanie Logo' />
       </div>
       <div className='cover' onClick={closeNav}></div>
     </StyledNav>

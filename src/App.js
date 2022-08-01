@@ -26,13 +26,22 @@ const StyledWrapper = styled.div`
     width: 100%;
   }
 
-  .logosLink {
-    font-size: ${(props) => props.theme.fontSize.h3};
-    color: #4182c2;
-    font-weight: 400;
+  .header {
+    font-weight: 600;
+    font-size: ${(props) => props.theme.fontSize.article};
+    text-transform: uppercase;
     text-align: center;
+  }
 
-    width: 100%;
+  .logosLink {
+    text-align: center;
+    color: ${(props) => props.theme.colors.grey};
+    font-weight: 600;
+    font-size: ${(props) => props.theme.fontSize.article};
+    margin-bottom: 20px;
+    a {
+      margin: 0 20px;
+    }
   }
 
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
@@ -59,10 +68,12 @@ function App() {
             src={require("./assets/logos.png")}
             alt='Salesforce + Slack + Zanie'
           />
+          <div className='header'>To break the sound of silence</div>
           <div className='logosLink'>
-            <a href='mailto:thegang@zanie.app'>
-              Click here to learn how we can break the sound of silence{" "}
+            <a href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
+              Schedule a meeting
             </a>
+            <a href='mailto:jumana@zanie.app'>Email us</a>
           </div>
           <h1 id='supporting' className='message'>
             Supporting Resources
