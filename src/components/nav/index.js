@@ -164,22 +164,29 @@ export default function Nav() {
         <div className='navLink'>
           <a
             onClick={closeNav}
+            target='_blank'
             href=' https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing https://docs.google.com/presentation/d/1jAjymoiFNqt1tz7DWlFE011qst7znfKNe0nLPM5as18/edit?usp=sharing'>
             Download our sales material
           </a>
         </div>
         <div className='navLink'>
-          <a onClick={closeNav} href='https://zanie.app'>
+          <a onClick={closeNav} target='_blank' href='https://zanie.app'>
             More about Zanie
           </a>
         </div>
         <div className='navLink'>
-          <a onClick={closeNav} href='https://slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>
+          <a
+            onClick={closeNav}
+            target='_blank'
+            href='https://slack.com/apps/A3E3A1AKU-zanie?tab=more_info'>
             Install zanie on Slack
           </a>
         </div>
         <div className='navLink'>
-          <a onClick={closeNav} href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
+          <a
+            onClick={closeNav}
+            target='_blank'
+            href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
             Schedule a meeting
           </a>
         </div>

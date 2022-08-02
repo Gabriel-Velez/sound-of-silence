@@ -70,7 +70,7 @@ function App() {
           />
           <div className='header'>To break the sound of silence</div>
           <div className='logosLink'>
-            <a href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
+            <a target='_blank' href='https://calendly.com/jumana-zanieapp/zanie_app?month=2022-08'>
               Schedule a meeting
             </a>
             <a href='mailto:jumana@zanie.app'>Email us</a>
