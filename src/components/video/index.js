@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCirclePlay, faCirclePause } from "@fortawesome/free-solid-svg-icons";
+import { faCirclePlay, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Vimeo from "@u-wave/react-vimeo";
 
 const StyledVideo = styled.div`
+  cursor: pointer;
   user-select: none;
   align-items: center;
   justify-content: center;
@@ -77,18 +79,6 @@ const StyledVideo = styled.div`
     }
   }
 
-  .onlyTimeline::-webkit-media-controls-play-button,
-  .onlyTimeline::-webkit-media-controls-current-time-display,
-  .onlyTimeline::-webkit-media-controls-time-remaining-display {
-    display: none;
-  }
-  .onlyTimeline::-webkit-media-controls-fullscreen-button {
-    margin-right: 20px;
-  }
-
-  .vidHidden::-webkit-media-controls-panel {
-    opacity: 0;
-  }
   @media only screen and (${(props) => props.theme.breakPoints.mobile}) {
     .videoTextWrapper {
       > div {
@@ -102,35 +92,37 @@ const StyledVideo = styled.div`
   }
 `;
 
+const StyledVimeo = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: ${(props) => props.theme.colors.opaqueLightBlack};
+  position: fixed;
+  z-index: 100;
+  display: grid;
+  place-content: center;
+  &.hidden {
+    display: none;
+  }
+  .closeVimeo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: ${(props) => props.theme.colors.white};
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    cursor: pointer;
+  }
+`;
+
 export default function Video() {
-  const displayText = (inVid) => {
-    const vid = document.querySelector("#splashVideo");
-    const vidText = document.querySelector("#videoTextWrapper");
-    if (vid.paused) {
-      vidText.classList.remove("paused");
-      vidText.classList.add("playing");
-      if (inVid === true) vid.play();
-    } else {
-      vidText.classList.add("paused");
-      vidText.classList.remove("playing");
-      if (inVid === true) vid.pause();
-    }
-  };
-  const displayTextEnded = () => {
-    const vidText = document.querySelector("#videoTextWrapper");
-    vidText.classList.add("paused");
-    vidText.classList.remove("playing");
-  };
-
   const displayVideo = () => {
-    const styledLoop = document.querySelector("#styledLoop");
-    const styledMain = document.querySelector("#styledMain");
-    styledLoop.classList.remove("active");
-    styledMain.classList.add("active");
-
-    const vid = document.querySelector("#splashVideo");
-    vid.play();
-    vid.requestFullscreen();
+    const vidWrapper = document.querySelector("#styledMain");
+    vidWrapper.classList.remove("hidden");
+  };
+  const closeVideo = () => {
+    const vidWrapper = document.querySelector("#styledMain");
+    vidWrapper.classList.add("hidden");
   };
 
   return (
@@ -157,18 +149,18 @@ export default function Video() {
           <source src={require("../../assets/loop.mp4")} type='video/mp4' />
         </video>
       </StyledVideo>
-      <StyledVideo id='styledMain'>
-        <video
-          onEnded={displayTextEnded}
-          className='mainVid'
-          id='splashVideo'
-          width='100%'
-          controls
-          controlsList='nodownload noplaybackrate'
-          disablePictureInPicture>
-          <source src='https://www.pivotforhumanity.com/scenes.mp4' type='video/mp4' />
-        </video>
-      </StyledVideo>
+      <StyledVimeo id='styledMain' className='hidden'>
+        <FontAwesomeIcon
+          icon={faXmark}
+          className='closeVimeo'
+          onClick={() => closeVideo()}
+          onTouchStart={() => closeVideo()}
+        />
+        <Vimeo
+          // video='https://player.vimeo.com/video/737602564?h=98a9e4b671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+          video='https://vimeo.com/226053498'
+        />
+      </StyledVimeo>
     </>
   );
 }
