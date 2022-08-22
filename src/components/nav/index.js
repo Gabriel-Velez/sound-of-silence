@@ -112,7 +112,6 @@ const StyledNav = styled.nav`
 `;
 
 export default function Nav() {
-  let timer = null;
   const openNav = () => {
     document.querySelector(".modal").classList.add("open");
     document.querySelector(".cover").classList.add("open");
@@ -121,29 +120,7 @@ export default function Nav() {
     document.querySelector(".modal").classList.remove("open");
     document.querySelector(".cover").classList.remove("open");
   };
-  const handelUpdate = () => {
-    const vid = document.querySelector("#splashVideo");
-    const navVar = document.querySelector("#nav");
-    navVar.classList.remove("navHidden");
-    if (timer) clearTimeout(timer);
-    timer = setTimeout(() => {
-      if (!vid.paused) {
-        navVar.classList.add("navHidden");
-      }
-    }, theme.idleTime);
-  };
 
-  useEffect(() => {
-    window.addEventListener("mousemove", handelUpdate);
-    window.addEventListener("scroll", handelUpdate);
-    return () => {
-      window.removeEventListener("mousemove", handelUpdate);
-      window.removeEventListener("scroll", handelUpdate);
-      if (timer) {
-        clearTimeout(timer);
-      }
-    };
-  }, []);
   return (
     <StyledNav className='open' id='nav'>
       <FontAwesomeIcon icon={faBars} onClick={openNav} />

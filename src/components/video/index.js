@@ -149,7 +149,11 @@ export default function Video() {
           <source src={require("../../assets/loop.mp4")} type='video/mp4' />
         </video>
       </StyledVideo>
-      <StyledVimeo id='styledMain' className='hidden'>
+      <StyledVimeo
+        id='styledMain'
+        className='hidden'
+        onClick={() => closeVideo()}
+        onTouchStart={() => closeVideo()}>
         <FontAwesomeIcon
           icon={faXmark}
           className='closeVimeo'
