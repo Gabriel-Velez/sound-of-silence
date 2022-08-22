@@ -157,7 +157,8 @@ export default function Video() {
           onTouchStart={() => closeVideo()}
         />
         <Vimeo
-          video='https://player.vimeo.com/video/737602564?h=98a9e4b671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+          video='https://player.vimeo.com/video/737602564?h=98a9e4b671'
+          // video='https://player.vimeo.com/video/737602564?h=98a9e4b671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
           // video='https://vimeo.com/226053498'
         />
       </StyledVimeo>
