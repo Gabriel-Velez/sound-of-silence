@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -18,6 +18,10 @@ const StyledVideo = styled.div`
 
   &.active {
     display: flex;
+  }
+
+  .hidden {
+    display: none !important;
   }
 
   img {
@@ -95,11 +99,23 @@ const StyledVideo = styled.div`
 const StyledVimeo = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: ${(props) => props.theme.colors.opaqueLightBlack};
-  position: fixed;
+  background-color: ${(props) => props.theme.colors.opaqueBlack};
   z-index: 100;
   display: grid;
   place-content: center;
+  max-height: 1080px;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 1080px;
+  }
+
   &.hidden {
     display: none;
   }
@@ -116,13 +132,16 @@ const StyledVimeo = styled.div`
 `;
 
 export default function Video() {
+  useEffect(() => {
+    const vimVid = document.querySelector(".vimeoWrapper").firstElementChild;
+    // vimVid.style = { color: "pink" };
+  }, []);
+
   const displayVideo = () => {
     const vidWrapper = document.querySelector("#styledMain");
+    const initalVidWrapper = document.querySelector("#loopingVideo");
     vidWrapper.classList.remove("hidden");
-  };
-  const closeVideo = () => {
-    const vidWrapper = document.querySelector("#styledMain");
-    vidWrapper.classList.add("hidden");
+    initalVidWrapper.classList.add("hidden");
   };
 
   return (
@@ -149,23 +168,14 @@ export default function Video() {
           <source src={require("../../assets/loop.mp4")} type='video/mp4' />
         </video>
       </StyledVideo>
-      <StyledVimeo
-        id='styledMain'
-        className='hidden'
-        onClick={() => closeVideo()}
-        onTouchStart={() => closeVideo()}>
-        <FontAwesomeIcon
-          icon={faXmark}
-          className='closeVimeo'
-          onClick={() => closeVideo()}
-          onTouchStart={() => closeVideo()}
-        />
+      <StyledVimeo id='styledMain' className='hidden'>
         <Vimeo
           video='https://player.vimeo.com/video/737602564?h=98a9e4b671'
           // video='https://player.vimeo.com/video/737602564?h=98a9e4b671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
           // video='https://vimeo.com/226053498'
-          width={640}
-          height={360}
+          // width={640}
+          // height={360}
+          className='vimeoWrapper'
         />
       </StyledVimeo>
     </>

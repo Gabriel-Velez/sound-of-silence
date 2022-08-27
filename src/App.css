@@ -24,3 +24,8 @@ a:active {
   width: 80vw;
   max-width: 1440px;
 }
+
+.vimeo {
+  width: 100vw !important;
+  height: 100vh !important;
+}
