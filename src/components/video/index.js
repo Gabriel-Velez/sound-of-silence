@@ -103,7 +103,7 @@ const StyledVimeo = styled.div`
   z-index: 100;
   display: grid;
   place-content: center;
-  max-height: 1080px;
+  max-height: 1920px;
 
   iframe,
   object,
@@ -113,7 +113,7 @@ const StyledVimeo = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    max-height: 1080px;
+    max-height: 1920px;
   }
 
   &.hidden {
